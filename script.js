@@ -1,5 +1,5 @@
 // Avaa sivu aina yläreunasta (estä selaimen vierityksen palautus ja
-// jäänyt #yritys-ankkuri viemästä "Tehdään mitä luvataan" -kohtaan)
+// jäänyt #yritys-ankkuri viemästä "Kattotyöt ammattitaidolla" -kohtaan)
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
@@ -110,8 +110,8 @@ if (sections.length) {
   // Formspree-endpoint. Liitä tähän tilisi osoite, esim. 'https://formspree.io/f/xxxxxxx'.
   // Kun tämä on tyhjä, lomake käyttää varavaihtoehtona kävijän omaa sähköpostiohjelmaa (mailto).
   var FORMSPREE_ENDPOINT = 'https://formspree.io/f/mdavzwgy';
-  var PHONE = '050 581 3227';
-  var PHONE_TEL = '0505813227';
+  var PHONE = 'info@svkatto.fi';
+  var PHONE_TEL = '';
 
   var lang = (document.documentElement.lang || 'fi').slice(0, 2).toLowerCase();
   if (['fi', 'sv', 'en'].indexOf(lang) === -1) lang = 'fi';
@@ -123,7 +123,7 @@ if (sections.length) {
       name: 'Nimi', email: 'Sähköposti', phone: 'Puhelin', company: 'Yritys',
       optional: '(valinnainen)', message: 'Viesti', send: 'Lähetä viesti',
       sending: 'Lähetetään…',
-      errorMsg: 'Viestin lähetys ei onnistunut. Yritä uudelleen tai soita 050 581 3227.',
+      errorMsg: 'Viestin lähetys ei onnistunut. Yritä uudelleen tai laita viesti osoitteeseen info@svkatto.fi.',
       mailSubject: 'Yhteydenotto verkkosivulta',
       thanksTitle: 'Kiitos yhteydenotostasi!',
       thanksBody: 'Viestisi on lähetetty. Yritämme vastata mahdollisimman pian.',
@@ -138,7 +138,7 @@ if (sections.length) {
       name: 'Namn', email: 'E-post', phone: 'Telefon', company: 'Företag',
       optional: '(valfritt)', message: 'Meddelande', send: 'Skicka meddelande',
       sending: 'Skickar…',
-      errorMsg: 'Meddelandet kunde inte skickas. Försök igen eller ring 050 581 3227.',
+      errorMsg: 'Meddelandet kunde inte skickas. Försök igen eller mejla info@svkatto.fi.',
       mailSubject: 'Kontakt via webbplatsen',
       thanksTitle: 'Tack för din kontakt!',
       thanksBody: 'Ditt meddelande har skickats. Vi försöker svara så snart som möjligt.',
@@ -153,7 +153,7 @@ if (sections.length) {
       name: 'Name', email: 'Email', phone: 'Phone', company: 'Company',
       optional: '(optional)', message: 'Message', send: 'Send message',
       sending: 'Sending…',
-      errorMsg: 'The message could not be sent. Please try again or call 050 581 3227.',
+      errorMsg: 'The message could not be sent. Please try again or email info@svkatto.fi.',
       mailSubject: 'Contact from website',
       thanksTitle: 'Thank you for your message!',
       thanksBody: 'Your message has been sent. We will try to respond as soon as possible.',
@@ -194,7 +194,7 @@ if (sections.length) {
           '<h3>' + t.thanksTitle + '</h3>' +
           '<p>' + t.thanksBody + '</p>' +
           '<p>' + t.urgent + '</p>' +
-          '<a class="cf-toast-phone" href="tel:' + PHONE_TEL + '">' + PHONE + '</a>' +
+          '<a class="cf-toast-phone" href="mailto:info@svkatto.fi">' + PHONE + '</a>' +
         '</div>' +
       '</div>' +
     '</div>';
@@ -308,10 +308,10 @@ if (sections.length) {
   var lang = document.documentElement.lang || 'fi';
   var base = (location.pathname.indexOf('/sv/') !== -1 || location.pathname.indexOf('/en/') !== -1) ? '../' : '';
   var L = ({
-    fi: { label: 'Yhteystiedot', heading: 'Myrak palveluksessanne', lead: 'Työnjohtaja, Partner' },
+    fi: { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' },
     sv: { label: 'Kontakt', heading: 'Myrak till er tjänst', lead: 'Arbetsledare, Partner' },
     en: { label: 'Contact', heading: 'Myrak at your service', lead: 'Site manager, Partner' }
-  })[lang] || { label: 'Yhteystiedot', heading: 'Myrak palveluksessanne', lead: 'Työnjohtaja, Partner' };
+  })[lang] || { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' };
   function card(av, name, role, tel, telDisp, email) {
     return '<div class="contact-card"><div class="contact-avatar">' + av + '</div>' +
       '<div class="contact-card-info"><h3>' + name + '</h3><p class="contact-role">' + role + '</p>' +
@@ -324,16 +324,14 @@ if (sections.length) {
     '<h2 class="section-title section-title--light">' + L.heading + '</h2></div>' +
     '<div class="contact-grid">' +
     '<div class="contact-info">' +
-    '<div class="contact-block"><p class="contact-company">Svkatto Oy</p><p>Pietarinkatu 11 A90<br>00140 Helsinki</p>' +
+    '<div class="contact-block"><p class="contact-company">Svkatto Oy</p><p>Pähkinätie 12 A1<br>01710 Vantaa</p>' +
     '<p class="contact-detail">Y-tunnus: 3510360-8</p></div>' +
-    '<div class="contact-block"><a href="tel:0505813227" class="contact-link">050 581 3227</a>' +
+    '<div class="contact-block"><span class="contact-link">Puh. lisätään pian</span>' +
     '<a href="mailto:info@svkatto.fi" class="contact-link">info@svkatto.fi</a></div>' +
     '<img src="' + base + 'kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
-    card('MM', 'Marko Mürkel', L.lead, '0505813227', '050 581 3227', 'info@svkatto.fi') +
-    card('TP', 'Triinu Pihlak', 'Partner', '0442937756', '044 293 7756', 'triinu.pihlak@svkatto.fi') +
-    card('AK', 'Aleksandr Kraptsak', 'Partner', '0406888374', '040 688 8374', 'aleksandr.kraptsak@svkatto.fi') +
+    '<p class="contact-note">Tiimin yhteystiedot lisätään pian.</p>' +
     '</div></div></div></section>';
   footer.insertAdjacentHTML('beforebegin', html);
 })();
