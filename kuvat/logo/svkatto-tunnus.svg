@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729 371" width="729" height="371">
+  <title>SVkatto Oy - kattotunnus</title>
+
+  <g transform="translate(-226,-97.5)">
+    <!-- ikkuna: 4 ruutua, kaareva ylareuna -->
+    <g fill="#E7E5E4">
+      <path d="M427.5 385 A48.5 48.5 0 0 1 467 344.25 L467 385 Z"/>
+      <path d="M523.5 385 A48.5 48.5 0 0 0 485 344.25 L485 385 Z"/>
+      <path d="M427 403 H467 V468 H427 Z"/>
+      <path d="M485 403 H524 V468 H485 Z"/>
+    </g>
+
+    <!-- katto -->
+    <path fill="#F68714" d="M226 347 L475.5 97.5 L674 296 L906 296 L955 347 L654 347 L475.5 168.5 L297 347 Z"/>
+
+    <!-- sisakaari -->
+    <path fill="#CE3200" d="M377 340 L476 241 L576 339 Q476 255 377 340 Z"/>
+  </g>
+</svg>
