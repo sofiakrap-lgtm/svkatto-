@@ -31,14 +31,15 @@
 
   var map, markers = [], all = [], fType = 'all', fYear = 'all';
 
-  var icon = L.icon({
+  var icon = (typeof L !== 'undefined') ? L.icon({
     iconUrl: base + 'karttamerkki.svg',
     iconSize: [32, 32],
     iconAnchor: [16, 32],
     popupAnchor: [0, -34]
-  });
+  }) : null;
 
   function initMap() {
+    if (typeof L === 'undefined') return;
     map = L.map('refs-map', { scrollWheelZoom: false }).setView([60.1699, 24.9384], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -70,6 +71,7 @@
   }
 
   function renderMarkers(projects) {
+    if (!map) return;
     markers.forEach(function (m) { map.removeLayer(m); });
     markers = [];
     projects.forEach(function (p) {
@@ -185,7 +187,7 @@
       all = data.projects;
       var countEl = document.getElementById('project-count');
       if (countEl) animateCount(countEl, all.length);
-      initMap();
+      try { initMap(); } catch (e) { console.warn('map unavailable', e); }
       buildFilters();
       applyFilters();
     })

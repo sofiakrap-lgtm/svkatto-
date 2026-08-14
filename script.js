@@ -309,8 +309,8 @@ if (sections.length) {
   var base = (location.pathname.indexOf('/sv/') !== -1 || location.pathname.indexOf('/en/') !== -1) ? '../' : '';
   var L = ({
     fi: { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' },
-    sv: { label: 'Kontakt', heading: 'Myrak till er tjänst', lead: 'Arbetsledare, Partner' },
-    en: { label: 'Contact', heading: 'Myrak at your service', lead: 'Site manager, Partner' }
+    sv: { label: 'Kontakt', heading: 'Svkatto till er tjänst', lead: 'Arbetsledare, Partner' },
+    en: { label: 'Contact', heading: 'Svkatto at your service', lead: 'Site manager, Partner' }
   })[lang] || { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' };
   function card(av, name, role, tel, telDisp, email) {
     return '<div class="contact-card"><div class="contact-avatar">' + av + '</div>' +
