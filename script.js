@@ -328,7 +328,7 @@ if (sections.length) {
     '<p class="contact-detail">Y-tunnus: 3510360-8</p></div>' +
     '<div class="contact-block"><a href="tel:0505813227" class="contact-link">050 581 3227</a>' +
     '<a href="mailto:info@svkatto.fi" class="contact-link">info@svkatto.fi</a></div>' +
-    '<img src="' + base + 'kuvat/sertifikaatit/asiakastieto.svg" alt="Suomen Asiakastieto -sertifikaatti" class="contact-cert">' +
+    '<img src="' + base + 'kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
     card('MM', 'Marko Mürkel', L.lead, '0505813227', '050 581 3227', 'info@svkatto.fi') +
