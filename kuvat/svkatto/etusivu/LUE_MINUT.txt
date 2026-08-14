@@ -1,0 +1,6 @@
+KUVAT: etusivu
+Laita tähän etusivu-kuvat. Suositus: leveä (vaaka), vaalea, JPG, väh. 1600px leveä.
+- etusivu = hero- ja esittelykuvat
+- kohteet = referenssikuvat (nimeä esim. arkadiankatu30.jpg)
+- palvelut = palvelusivujen kuvat (konesaumakatto.jpg jne.)
+- galleria = valmiit kohteet, ennen/jälkeen, tiimi työssä

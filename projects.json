@@ -1,0 +1,2494 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "lat": 60.1585,
+      "lng": 24.8745,
+      "name": "As Oy Talokolmikko",
+      "address": "Isokaari 2",
+      "city": "Helsinki",
+      "year": 2017,
+      "yearDisplay": "2017",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/isokaari2.jpg",
+      "description": {
+        "fi": "Jätehuoneen rakennus.",
+        "sv": "Byggande av soprum.",
+        "en": "Waste-room construction."
+      },
+      "rating": 2
+    },
+    {
+      "id": 2,
+      "lat": 60.1862,
+      "lng": 24.9166,
+      "name": "As Oy Runeberginkatu 59",
+      "address": "Runeberginkatu 59",
+      "city": "Helsinki",
+      "year": 2017,
+      "yearDisplay": "2017",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/runeberginkatu59.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt.",
+        "sv": "Balkongrenovering.",
+        "en": "Balcony renovation."
+      },
+      "rating": 1
+    },
+    {
+      "id": 3,
+      "lat": 60.1697,
+      "lng": 24.934,
+      "name": "As Oy Pietola",
+      "address": "Simonkatu 10",
+      "city": "Helsinki",
+      "year": 2017,
+      "yearDisplay": "2017",
+      "type": "katto",
+      "image": "kuvat/referenssit/simonkatu10.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "featured": true,
+      "rating": 1
+    },
+    {
+      "id": 4,
+      "lat": 60.164,
+      "lng": 24.9402,
+      "name": "As Oy Bulevardi 19",
+      "address": "Bulevardi 19",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/bulevardi19.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 5,
+      "lat": 60.1818,
+      "lng": 24.9512,
+      "name": "Kiinteistö Oy Toinen linja 3",
+      "address": "Toinen linja 3",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/toinenlinja3.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "lat": 60.1635,
+      "lng": 24.9272,
+      "name": "Hietalahden Kiinteistöhuolto Oy",
+      "address": "Köydenpunojankatu 7",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/koydenpunojankatu7.jpg",
+      "description": {
+        "fi": "Maalaustyöt, korjaustyöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Målningsarbeten, renoveringsarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Painting works, renovation works, balcony renovation, window renovation."
+      },
+      "featured": true,
+      "rating": 1
+    },
+    {
+      "id": 7,
+      "lat": 60.1606,
+      "lng": 24.8917,
+      "name": "As Oy Isokaari 4",
+      "address": "Isokaari 4",
+      "city": "Helsinki",
+      "year": 2017,
+      "yearDisplay": "2017",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/isokaari.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering.",
+        "en": "Facade works, balcony renovation."
+      },
+      "featured": true,
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "lat": 60.1735,
+      "lng": 24.9555,
+      "name": "As Oy Välikatu 2",
+      "address": "Välikatu 2",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/valikatu2.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, fönsterrenovering.",
+        "en": "Facade works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "lat": 60.1727,
+      "lng": 24.9528,
+      "name": "Kiinteistö Oy Mariankatu 13a",
+      "address": "Mariankatu 13",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mariankatu13.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "lat": 60.1818,
+      "lng": 24.9175,
+      "name": "As Oy Topeliuksenkatu 12",
+      "address": "Topeliuksenkatu 12",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/topeliuksenkatu12.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": 3
+    },
+    {
+      "id": 11,
+      "lat": 60.4639,
+      "lng": 25.047,
+      "name": "Järvenpään seurakuntaopisto",
+      "address": "Järvenpääntie 640",
+      "city": "Järvenpää",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/jarvenpaantie640.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "lat": 60.1722,
+      "lng": 24.9512,
+      "name": "Bostads Ab Unionsgatan 45",
+      "address": "Unioninkatu 45",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/unioninkatu45.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": 1
+    },
+    {
+      "id": 13,
+      "lat": 60.1644,
+      "lng": 24.942,
+      "name": "Bulevardi 12 Kehitys Ky",
+      "address": "Bulevardi 12",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/bulevardi12.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering.",
+        "en": "Facade works, balcony renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 14,
+      "lat": 60.2275,
+      "lng": 24.9685,
+      "name": "Asunto Oy Oulunkylän Rivitalot",
+      "address": "Pirttipolku 2",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "katto",
+      "image": "kuvat/referenssit/pirttipolku2.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 15,
+      "lat": 60.1612,
+      "lng": 24.946,
+      "name": "As Oy Linnankatu 5",
+      "address": "Linnankatu 5",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/linnankatu5.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 16,
+      "lat": 60.129,
+      "lng": 24.185,
+      "name": "Tähteläntie",
+      "address": "Tähteläntie 527",
+      "city": "Tähtelä",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "katto",
+      "image": "kuvat/referenssit/tahtelantie527.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 17,
+      "lat": 60.166,
+      "lng": 24.938,
+      "name": "Asunto-osakeyhtiö Antinkatu 38",
+      "address": "Lönnrotinkatu 18",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/lonnrotinkatu18.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, peltityöt.",
+        "sv": "Fönsterrenovering, plåtarbeten.",
+        "en": "Window renovation, sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 18,
+      "lat": 60.1882,
+      "lng": 24.9175,
+      "name": "As Oy Jaffa",
+      "address": "Stenbäckinkatu 12 A 1",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/stenbackinkatu12a1.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 19,
+      "lat": 60.173,
+      "lng": 24.959,
+      "name": "As Oy Kiholinna",
+      "address": "Pohjoisranta 20",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/pohjoisranta20.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 20,
+      "lat": 60.166,
+      "lng": 24.934,
+      "name": "Helsingin Seudun Isännöitsijät Oy",
+      "address": "Fredrikinkatu 35",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/fredrikinkatu35.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 21,
+      "lat": 60.1612,
+      "lng": 24.9405,
+      "name": "Asunto Oy Jääkärinrinne",
+      "address": "Jääkärinkatu 6a",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "katto",
+      "image": "kuvat/referenssit/jaakarinkatu6a.jpg",
+      "description": {
+        "fi": "Katon peltityöt.",
+        "sv": "Takplåtsarbeten.",
+        "en": "Roof sheet-metal works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 22,
+      "lat": 60.1613,
+      "lng": 24.9407,
+      "name": "As Oy Tellus",
+      "address": "Kapteeninkatu 5",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kapteeninkatu5.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering.",
+        "en": "Facade works, balcony renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 23,
+      "lat": 60.1672,
+      "lng": 24.93,
+      "name": "As Oy Malminrinne 2-4",
+      "address": "Malminrinne 2-4",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/malminrinne.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt, parvekkeiden korjaustyöt, peltityöt.",
+        "sv": "Fasadarbeten, fönsterrenovering, balkongrenovering, plåtarbeten.",
+        "en": "Facade works, window renovation, balcony renovation, sheet-metal works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 24,
+      "lat": 60.1605,
+      "lng": 24.946,
+      "name": "As Suvantola",
+      "address": "Pietarinkatu 5",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/pietarinkatu5.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt.",
+        "sv": "Balkongrenovering.",
+        "en": "Balcony renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 25,
+      "lat": 60.1865,
+      "lng": 24.999,
+      "name": "Kiinteistöyhtymä Rantapolku 15",
+      "address": "Rantapolku 15",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/rantapolku15.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 26,
+      "lat": 60.1858,
+      "lng": 24.918,
+      "name": "Bostads Ab Runebergsgatan 50",
+      "address": "Runeberginkatu 50",
+      "city": "Helsinki",
+      "year": 2019,
+      "yearDisplay": "2019",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/runeberginkatu50.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 27,
+      "lat": 60.2545,
+      "lng": 24.999,
+      "name": "Sinivuorentie 11",
+      "address": "Sinivuorentie 11",
+      "city": "Helsinki",
+      "year": 2018,
+      "yearDisplay": "2018",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/sinivuorentie11.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 28,
+      "lat": 60.1955,
+      "lng": 24.922,
+      "name": "Ajurien Asunto Osakeyhtiö Warma",
+      "address": "Puistotie 2",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/puistotie2.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "rating": null
+    },
+    {
+      "id": 29,
+      "lat": 60.227,
+      "lng": 25.103,
+      "name": "Bostads Ab Kajaneborg",
+      "address": "Kajaaninlinnantie 1",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kajaaninlinnantie1.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt, ikkunoiden korjaustyöt, peltityöt.",
+        "sv": "Balkongrenovering, fönsterrenovering, plåtarbeten.",
+        "en": "Balcony renovation, window renovation, sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 30,
+      "lat": 60.184,
+      "lng": 24.952,
+      "name": "As Oy Kolmas Linja 21",
+      "address": "Kolmas Linja 21",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kolmaslinja21.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt, julkisivutyöt.",
+        "sv": "Balkongrenovering, fasadarbeten.",
+        "en": "Balcony renovation, facade works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 31,
+      "lat": 60.169,
+      "lng": 24.961,
+      "name": "As Oy Kontio",
+      "address": "Kruunuvuorenkatu 5",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kruunuvuorenkatu5.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 32,
+      "lat": 60.184,
+      "lng": 24.927,
+      "name": "As Oy Kotitontu",
+      "address": "Freesenkatu",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/freesenkatu.jpg",
+      "description": {
+        "fi": "Peltityöt, korjaustyöt.",
+        "sv": "Plåtarbeten, renoveringsarbeten.",
+        "en": "Sheet-metal works, renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 33,
+      "lat": 60.164,
+      "lng": 24.9398,
+      "name": "As Oy Lappila",
+      "address": "Bulevardi 21",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/bulevardi21.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 34,
+      "lat": 60.1843,
+      "lng": 24.953,
+      "name": "As Oy Säästöpiiri",
+      "address": "Kolmas Linja 30",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kolmaslinja30.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 35,
+      "lat": 60.1568,
+      "lng": 24.9433,
+      "name": "Gyllenberg / Fenix",
+      "address": "Huvilankatu 27",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/huvilakatu27.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt.",
+        "sv": "Balkongrenovering.",
+        "en": "Balcony renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 36,
+      "lat": 60.1648,
+      "lng": 24.9508,
+      "name": "Asunto Oy Helsingin Miles Bostads Ab",
+      "address": "Kasarmikatu 28",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kasarmikatu28.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 37,
+      "lat": 60.1705,
+      "lng": 24.936,
+      "name": "Asunto Oy Turuntie 86",
+      "address": "Mannerheimintie 11",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mannerheimintie11.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt.",
+        "sv": "Fasadarbeten, plåtarbeten.",
+        "en": "Facade works, sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 38,
+      "lat": 60.1845,
+      "lng": 24.9545,
+      "name": "Talo IV linja 20",
+      "address": "Neljäs Linja 20",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/neljaslinja20.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 39,
+      "lat": 60.1683,
+      "lng": 24.946,
+      "name": "Kiinteistö Oy Rikhard",
+      "address": "Rikhardinkatu 2",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "katto",
+      "image": "kuvat/referenssit/rikhardinkatu2.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 40,
+      "lat": 60.1685,
+      "lng": 24.949,
+      "name": "Sacrum Oy",
+      "address": "Fabianinkatu 8",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "katto",
+      "image": "kuvat/referenssit/fabianinkatu8.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 41,
+      "lat": 60.1985,
+      "lng": 24.876,
+      "name": "Saksalainen senioritalo",
+      "address": "Nuottapolku 2",
+      "city": "Helsinki",
+      "year": 2020,
+      "yearDisplay": "2020",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/nuottapolku2.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": null
+    },
+    {
+      "id": 42,
+      "lat": 60.1585,
+      "lng": 24.946,
+      "name": "As Oy Aukio Bostads Ab",
+      "address": "Engelinaukio 15-17",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/aukio.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 43,
+      "lat": 60.1575,
+      "lng": 24.9555,
+      "name": "Italian suurlähetystö",
+      "address": "Itäinen Puistotie 4",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/itainenpuistotie4.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt.",
+        "sv": "Balkongrenovering.",
+        "en": "Balcony renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 44,
+      "lat": 60.1595,
+      "lng": 24.94,
+      "name": "As Oy Tehtaankatu 34",
+      "address": "Tehtaankatu 34",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tehtaankatu34.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 45,
+      "lat": 60.395,
+      "lng": 25.663,
+      "name": "Runoilijakoti, Porvoo",
+      "address": "Flensborgintörmä 2",
+      "city": "Porvoo",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/runoilijakoti.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 46,
+      "lat": 60.1738,
+      "lng": 24.9555,
+      "name": "Murto ja Kallio Oy",
+      "address": "Kristianinkatu 2",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kristianinkatu2.jpg",
+      "description": {
+        "fi": "Peltityöt, julkisivutyöt.",
+        "sv": "Plåtarbeten, fasadarbeten.",
+        "en": "Sheet-metal works, facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 47,
+      "lat": 60.156,
+      "lng": 24.876,
+      "name": "Kiinteistö Oy Kauppaneuvoksentie 8",
+      "address": "Kauppaneuvoksentie 8",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kauppaneuvoksentie8.jpg",
+      "description": {
+        "fi": "Korjaustyöt, peltityöt.",
+        "sv": "Renoveringsarbeten, plåtarbeten.",
+        "en": "Renovation works, sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 48,
+      "lat": 60.1811,
+      "lng": 24.9512,
+      "name": "Asunto Oy Helsingin Hämeentie 6",
+      "address": "Hämeentie 6",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/hameentie6.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, julkisivutyöt.",
+        "sv": "Fönsterrenovering, fasadarbeten.",
+        "en": "Window renovation, facade works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 49,
+      "lat": 60.167,
+      "lng": 24.933,
+      "name": "Fredrikinkatu 77",
+      "address": "Fredrikinkatu 77",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/fredrikinkatu77.jpg",
+      "description": {
+        "fi": "Betonikoristeet.",
+        "sv": "Betongdekorationer.",
+        "en": "Concrete decorations."
+      },
+      "rating": null
+    },
+    {
+      "id": 50,
+      "lat": 60.161,
+      "lng": 24.941,
+      "name": "As Oy Tarmo Perämiehenkatu 2",
+      "address": "Perämiehenkatu 2",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/peramiehenkatu2.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, fönsterrenovering.",
+        "en": "Facade works, window renovation."
+      },
+      "rating": null
+    },
+    {
+      "id": 51,
+      "lat": 60.1748,
+      "lng": 24.9265,
+      "name": "As Oy Apollonkatu 18",
+      "address": "Apollonkatu 18",
+      "city": "Helsinki",
+      "year": 2021,
+      "yearDisplay": "2021",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/apollonkatu18.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt, peltityöt.",
+        "sv": "Fasadarbeten, fönsterrenovering, plåtarbeten.",
+        "en": "Facade works, window renovation, sheet-metal works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 52,
+      "lat": 60.1838,
+      "lng": 24.9489,
+      "name": "As Oy Brahe",
+      "address": "Itäinen Brahenkatu 13",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/brahe.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt, parvekkeiden korjaustyöt, peltityöt.",
+        "sv": "Fasadarbeten, fönsterrenovering, balkongrenovering, plåtarbeten.",
+        "en": "Facade works, window renovation, balcony renovation, sheet-metal works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 53,
+      "lat": 60.1568,
+      "lng": 24.9433,
+      "name": "As Oy Gården / Fenix",
+      "address": "Huvilankatu 27",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/huvilakatu27.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt.",
+        "sv": "Fasadarbeten, plåtarbeten.",
+        "en": "Facade works, sheet-metal works."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 54,
+      "lat": 60.1558,
+      "lng": 24.8758,
+      "name": "As Oy Kaislakallio",
+      "address": "Gyldénintie 10",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "katto",
+      "image": "kuvat/referenssit/gyldenintie10.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 55,
+      "lat": 60.1688,
+      "lng": 24.9612,
+      "name": "As Oy Kontio",
+      "address": "Kruunuvuorenkatu 10",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kruunuvuorenkatu10.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 56,
+      "lat": 60.1621,
+      "lng": 24.9437,
+      "name": "As Oy Laivurinkatu 39",
+      "address": "Laivurinkatu 39",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/laivurinkatu39.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 57,
+      "lat": 60.2235,
+      "lng": 25.079,
+      "name": "As Oy Rautatulli",
+      "address": "Rusthollarintie 13",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "katto",
+      "image": "kuvat/referenssit/rusthollarintie13.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 58,
+      "lat": 60.18,
+      "lng": 24.918,
+      "name": "As Oy Suttila",
+      "address": "Linnankoskenkatu 6 A",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/linnankoskenkatu6a.jpg",
+      "description": {
+        "fi": "Korjaustyöt, peltityöt, julkisivutyöt.",
+        "sv": "Renoveringsarbeten, plåtarbeten, fasadarbeten.",
+        "en": "Renovation works, sheet-metal works, facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 59,
+      "lat": 60.1672,
+      "lng": 24.965,
+      "name": "As Oy Työväen tuki",
+      "address": "Kauppiaankatu 13",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2020, 2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kauppiaankatu13.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 60,
+      "lat": 60.1683,
+      "lng": 24.946,
+      "name": "Kiinteistö Oy Rikhard",
+      "address": "Rikhardinkatu 2",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/rikhardinkatu2.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, parvekkeiden korjaustyöt.",
+        "sv": "Fönsterrenovering, balkongrenovering.",
+        "en": "Window renovation, balcony renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 61,
+      "lat": 60.1666,
+      "lng": 24.9498,
+      "name": "Fastighetsaktiebolaget Sirius",
+      "address": "Pohjoinen Makasiinikatu 7",
+      "city": "Helsinki",
+      "year": 2022,
+      "yearDisplay": "2022",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/pohjoinenmakasiinikatu7.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt.",
+        "sv": "Balkongrenovering.",
+        "en": "Balcony renovation."
+      },
+      "rating": null
+    },
+    {
+      "id": 62,
+      "lat": 60.1615,
+      "lng": 24.9415,
+      "name": "As Oy Kapteeninkatu 11",
+      "address": "Kapteeninkatu 11",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kapteeninkatu11.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt, parvekkeiden korjaustyöt, peltityöt.",
+        "sv": "Fasadarbeten, fönsterrenovering, balkongrenovering, plåtarbeten.",
+        "en": "Facade works, window renovation, balcony renovation, sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 63,
+      "lat": 60.1735,
+      "lng": 24.93,
+      "name": "As Oy Mannerheimintie 19",
+      "address": "Mannerheimintie 19",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mannerheimintie19.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt, julkisivutyöt, korjaustyöt.",
+        "sv": "Balkongrenovering, fasadarbeten, renoveringsarbeten.",
+        "en": "Balcony renovation, facade works, renovation works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 64,
+      "lat": 60.1729,
+      "lng": 24.955,
+      "name": "As Oy Meritullinkatu 6",
+      "address": "Meritullinkatu 6",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/meritullinkatu6.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, fönsterrenovering.",
+        "en": "Facade works, sheet-metal works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 65,
+      "lat": 60.1572,
+      "lng": 24.943,
+      "name": "Bostads Ab Villagatan 19-21-23",
+      "address": "Huvilankatu 19-23",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/huvilakatu19.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, fönsterrenovering.",
+        "en": "Facade works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 66,
+      "lat": 60.1631,
+      "lng": 24.9482,
+      "name": "FAB Nebomus",
+      "address": "Korkeavuorenkatu 29",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/korkeavuorenkatu29.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, balcony renovation, window renovation."
+      },
+      "featured": true,
+      "rating": 4
+    },
+    {
+      "id": 67,
+      "lat": 60.1576,
+      "lng": 24.9556,
+      "name": "As Oy Itäinen Puistotie 11",
+      "address": "Itäinen Puistotie 11",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/itainenpuistotie11.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt, peltityöt.",
+        "sv": "Fasadarbeten, balkongrenovering, plåtarbeten.",
+        "en": "Facade works, balcony renovation, sheet-metal works."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 68,
+      "lat": 60.29,
+      "lng": 25.07,
+      "name": "Kanisterinkuja 7",
+      "address": "Kanisterinkuja 7",
+      "city": "Salomäki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "katto",
+      "image": "kuvat/referenssit/kanisterinkuja7.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 69,
+      "lat": 60.1582,
+      "lng": 24.953,
+      "name": "Bostadsaktiebolaget Parkgatan 11 A",
+      "address": "Puistokatu 11 A",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/puistokatu11a.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, korjaustyöt.",
+        "sv": "Fönsterrenovering, renoveringsarbeten.",
+        "en": "Window renovation, renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 70,
+      "lat": 60.1825,
+      "lng": 24.77,
+      "name": "As Oy Suvikärki",
+      "address": "Suvikummunrinne 4",
+      "city": "Espoo",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/suvikarki.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, fönsterrenovering.",
+        "en": "Facade works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 71,
+      "lat": 60.1608,
+      "lng": 24.9434,
+      "name": "Murto & Kallio Oy",
+      "address": "Tehtaankatu 25",
+      "city": "Helsinki",
+      "year": 2023,
+      "yearDisplay": "2023",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tehtaankatu25.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, peltityöt, julkisivutyöt.",
+        "sv": "Fönsterrenovering, plåtarbeten, fasadarbeten.",
+        "en": "Window renovation, sheet-metal works, facade works."
+      },
+      "rating": null
+    },
+    {
+      "id": 72,
+      "lat": 60.213,
+      "lng": 24.9461,
+      "name": "As Oy Hauho",
+      "address": "Hauhontie 4",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/hauho.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, korjaustyöt.",
+        "sv": "Fasadarbeten, renoveringsarbeten.",
+        "en": "Facade works, renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 73,
+      "lat": 60.1788,
+      "lng": 24.922,
+      "name": "As Oy Kulmalinna",
+      "address": "Topeliuksenkatu 1",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/topeliuksenkatu1.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": 1
+    },
+    {
+      "id": 74,
+      "lat": 60.1543,
+      "lng": 24.9492,
+      "name": "HSS-paviljonki",
+      "address": "Liuskasaari",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/liuskasaarihsspaviljonki.jpg",
+      "description": {
+        "fi": "Korjaustyöt, julkisivutyöt.",
+        "sv": "Renoveringsarbeten, fasadarbeten.",
+        "en": "Renovation works, facade works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 75,
+      "lat": 60.1742,
+      "lng": 24.9533,
+      "name": "As Oy Mariankatu 19",
+      "address": "Mariankatu 19",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mariankatu19.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, balcony renovation, window renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 76,
+      "lat": 60.1748,
+      "lng": 24.9534,
+      "name": "As Oy Mariankatu 26",
+      "address": "Mariankatu 26",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mariankatu26.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, ovien korjaustyöt, julkisivutyöt, korjaustyöt, peltityöt.",
+        "sv": "Fönsterrenovering, dörrenovering, fasadarbeten, renoveringsarbeten, plåtarbeten.",
+        "en": "Window renovation, door renovation, facade works, renovation works, sheet-metal works."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 77,
+      "lat": 60.188,
+      "lng": 24.993,
+      "name": "As Oy Svinhufvudintie 15",
+      "address": "Svinhufvudintie 15",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/svinhufvudintie15.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": 2
+    },
+    {
+      "id": 78,
+      "lat": 60.1758,
+      "lng": 24.9258,
+      "name": "As Oy Aurorankatu 9",
+      "address": "Aurorankatu 9",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/aurorankatu9.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": 1
+    },
+    {
+      "id": 79,
+      "lat": 60.1673,
+      "lng": 24.9524,
+      "name": "Asunto Oy Tähtitorninrinne",
+      "address": "Kasarmikatu 26",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/kasarmikatu26.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, korjaustyöt.",
+        "sv": "Fönsterrenovering, renoveringsarbeten.",
+        "en": "Window renovation, renovation works."
+      },
+      "featured": true,
+      "rating": 3
+    },
+    {
+      "id": 80,
+      "lat": 60.1626,
+      "lng": 24.941,
+      "name": "As Oy Pursimiehenkatu 9",
+      "address": "Pursimiehenkatu 9",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/pursimiehenkatu9.jpg",
+      "description": {
+        "fi": "Korjaustyöt, parvekkeiden korjaustyöt.",
+        "sv": "Renoveringsarbeten, balkongrenovering.",
+        "en": "Renovation works, balcony renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 81,
+      "lat": 60.183,
+      "lng": 24.9239,
+      "name": "Töölön yhteiskoulu",
+      "address": "Urheilukatu 10",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "katto",
+      "image": "kuvat/referenssit/urheilukatu10.jpg",
+      "description": {
+        "fi": "Kattoikkunan korjaustyöt.",
+        "sv": "Takfönsterrenovering.",
+        "en": "Skylight renovation."
+      },
+      "rating": 2
+    },
+    {
+      "id": 82,
+      "lat": 60.1779,
+      "lng": 24.9293,
+      "name": "As Oy Töölönkatu 32 B",
+      "address": "Töölönkatu 32 B",
+      "city": "Helsinki",
+      "year": 2024,
+      "yearDisplay": "2024",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/toolonkatu32b.jpg",
+      "description": {
+        "fi": "Julkisivutyöt.",
+        "sv": "Fasadarbeten.",
+        "en": "Facade works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 83,
+      "lat": 60.158,
+      "lng": 24.9425,
+      "name": "Oy Petervilla",
+      "address": "Huvilankatu 13-15",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/huvilakatu13.jpg",
+      "description": {
+        "fi": "Peltityöt, korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Plåtarbeten, renoveringsarbeten, fönsterrenovering.",
+        "en": "Sheet-metal works, renovation works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 84,
+      "lat": 60.1755,
+      "lng": 24.9135,
+      "name": "Asunto Oy Merikannontie 3",
+      "address": "Merikannontie 3",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/merikannontie3.jpg",
+      "description": {
+        "fi": "Parvekkeiden korjaustyöt, julkisivutyöt, korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Balkongrenovering, fasadarbeten, renoveringsarbeten, fönsterrenovering.",
+        "en": "Balcony renovation, facade works, renovation works, window renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 85,
+      "lat": 60.1755,
+      "lng": 24.922,
+      "name": "As Oy Mannerheimintie 40",
+      "address": "Mannerheimintie 40",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mannerheimintie40.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, peltityöt.",
+        "sv": "Fönsterrenovering, plåtarbeten.",
+        "en": "Window renovation, sheet-metal works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 86,
+      "lat": 60.196,
+      "lng": 24.88,
+      "name": "Bostads Ab Tegelbacka",
+      "address": "Tiilimäki 2",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tiilimaki2.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, ovien korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, dörrenovering.",
+        "en": "Facade works, sheet-metal works, door renovation."
+      },
+      "rating": null
+    },
+    {
+      "id": 87,
+      "lat": 60.1715,
+      "lng": 24.9335,
+      "name": "As Oy Töölönkatu 2",
+      "address": "Töölönkatu 2",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/toolonkatu2.jpg",
+      "description": {
+        "fi": "Peltityöt, julkisivutyöt, ikkunoiden korjaustyöt, korjaustyöt, parvekkeiden korjaustyöt.",
+        "sv": "Plåtarbeten, fasadarbeten, fönsterrenovering, renoveringsarbeten, balkongrenovering.",
+        "en": "Sheet-metal works, facade works, window renovation, renovation works, balcony renovation."
+      },
+      "featured": true,
+      "rating": 5
+    },
+    {
+      "id": 88,
+      "lat": 60.1572,
+      "lng": 24.9532,
+      "name": "As Oy Itäinen Puistotie 3",
+      "address": "Itäinen Puistotie 3",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/itainenpuistotie3.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, renoveringsarbeten.",
+        "en": "Facade works, sheet-metal works, renovation works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 89,
+      "lat": 60.203,
+      "lng": 24.892,
+      "name": "As Oy Koulutie 3",
+      "address": "Tusentien tie 30",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tusentientie30.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, sheet-metal works, balcony renovation, window renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 90,
+      "lat": 60.368,
+      "lng": 24.747,
+      "name": "Arkadian yhteislyseo",
+      "address": "Lepsämäntie 15",
+      "city": "Klaukkala",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "katto",
+      "image": "kuvat/referenssit/lepsamantie15.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": null
+    },
+    {
+      "id": 91,
+      "lat": 60.1961,
+      "lng": 24.9483,
+      "name": "Asunto Oy Mäkelänkatu 31",
+      "address": "Mäkelänkatu 31",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/makelanrinne.jpg",
+      "description": {
+        "fi": "Peltityöt, julkisivutyöt, korjaustyöt, ikkunoiden korjaustyöt, ovien korjaustyöt.",
+        "sv": "Plåtarbeten, fasadarbeten, renoveringsarbeten, fönsterrenovering, dörrenovering.",
+        "en": "Sheet-metal works, facade works, renovation works, window renovation, door renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 92,
+      "lat": 60.1818,
+      "lng": 24.918,
+      "name": "SLSM",
+      "address": "Mannerheimintie 52",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/mannerheimintie52.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, fönsterrenovering.",
+        "en": "Facade works, window renovation."
+      },
+      "rating": 3
+    },
+    {
+      "id": 93,
+      "lat": 60.161,
+      "lng": 24.94,
+      "name": "Asunto Oy Tarkk'ampujankatu 14",
+      "address": "Tarkk'ampujankatu 14",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tarkkampujankatu14.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, korjaustyöt.",
+        "sv": "Fasadarbeten, renoveringsarbeten.",
+        "en": "Facade works, renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 94,
+      "lat": 60.1761,
+      "lng": 24.921,
+      "name": "Helsingin virkamiesasunto-osakeyhtiö",
+      "address": "Runeberginkatu 29",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/runeberginkatu29.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, peltityöt, julkisivutyöt, korjaustyöt.",
+        "sv": "Fönsterrenovering, plåtarbeten, fasadarbeten, renoveringsarbeten.",
+        "en": "Window renovation, sheet-metal works, facade works, renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 95,
+      "lat": 60.1712,
+      "lng": 24.9376,
+      "name": "Pääpostitalo",
+      "address": "Elielinaukio 2",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "katto",
+      "image": "kuvat/referenssit/paapostitalo.jpg",
+      "description": {
+        "fi": "Peltityöt.",
+        "sv": "Plåtarbeten.",
+        "en": "Sheet-metal works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 96,
+      "lat": 60.187,
+      "lng": 25.013,
+      "name": "As Oy Meripuistotie 5",
+      "address": "Meripuistotie 5",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/meripuistotie5.jpg",
+      "description": {
+        "fi": "Korjaustyöt, parvekkeiden korjaustyöt.",
+        "sv": "Renoveringsarbeten, balkongrenovering.",
+        "en": "Renovation works, balcony renovation."
+      },
+      "featured": true,
+      "rating": 1
+    },
+    {
+      "id": 97,
+      "lat": 60.1652,
+      "lng": 24.954,
+      "name": "Turkin suurlähetystö",
+      "address": "Satamakatu 9",
+      "city": "Helsinki",
+      "year": 2025,
+      "yearDisplay": "2025",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/satamakatu9.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, korjaustyöt.",
+        "sv": "Fasadarbeten, renoveringsarbeten.",
+        "en": "Facade works, renovation works."
+      },
+      "rating": 3
+    },
+    {
+      "id": 98,
+      "lat": 60.2035,
+      "lng": 24.866,
+      "name": "As Oy Aitio",
+      "address": "Ida Ekmanintie 5",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/idaekmanintie5.jpg",
+      "description": {
+        "fi": "Peltityöt, korjaustyöt.",
+        "sv": "Plåtarbeten, renoveringsarbeten.",
+        "en": "Sheet-metal works, renovation works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 99,
+      "lat": 60.1645,
+      "lng": 24.9342,
+      "name": "As Oy Boulevardin puisto",
+      "address": "Uudenmaankatu 39",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/uudenmaankatu39.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, sheet-metal works, balcony renovation, window renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 100,
+      "lat": 60.1759,
+      "lng": 24.9221,
+      "name": "As Oy Cygnaeuksenkatu 10",
+      "address": "Cygnaeuksenkatu 10",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/cygnaeuksenkatu10.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt, peltityöt.",
+        "sv": "Fönsterrenovering, plåtarbeten.",
+        "en": "Window renovation, sheet-metal works."
+      },
+      "rating": 4
+    },
+    {
+      "id": 101,
+      "lat": 60.183,
+      "lng": 24.955,
+      "name": "As Oy Fleminginkatu 11",
+      "address": "Fleminginkatu 11",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/fleminginkatu11.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, fönsterrenovering.",
+        "en": "Facade works, sheet-metal works, window renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 102,
+      "lat": 60.1879,
+      "lng": 24.9582,
+      "name": "As Oy Hämeentie 37",
+      "address": "Hämeentie 37",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/hameentie37.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 103,
+      "lat": 60.1651,
+      "lng": 24.9395,
+      "name": "As Oy Iso Roobertinkatu 42",
+      "address": "Iso Roobertinkatu 42",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/isoroobertinkatu42.jpg",
+      "description": {
+        "fi": "Korjaustyöt.",
+        "sv": "Renoveringsarbeten.",
+        "en": "Renovation works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 104,
+      "lat": 60.1571,
+      "lng": 24.957,
+      "name": "As Oy Kaivopuiston Myllytie 2",
+      "address": "Myllytie 2",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/myllytie2.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "rating": 3
+    },
+    {
+      "id": 105,
+      "lat": 60.162,
+      "lng": 24.953,
+      "name": "As Oy Neitsytpolku 9",
+      "address": "Neitsytpolku 9",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/neitsytpolku9.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, balcony renovation, window renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 106,
+      "lat": 60.1735,
+      "lng": 24.9559,
+      "name": "As Oy Soma",
+      "address": "Meritullinkatu 31",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/merituuli.jpg",
+      "description": {
+        "fi": "Ikkunoiden korjaustyöt.",
+        "sv": "Fönsterrenovering.",
+        "en": "Window renovation."
+      },
+      "rating": null
+    },
+    {
+      "id": 107,
+      "lat": 60.1804,
+      "lng": 24.9168,
+      "name": "Asunto Oy Karl / Bostads Ab",
+      "address": "Topeliuksenkatu 19",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/topeliuksenkatu19.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering.",
+        "en": "Facade works, balcony renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 108,
+      "lat": 60.1663,
+      "lng": 24.9373,
+      "name": "Bostads Ab Bangatan 11-13",
+      "address": "Ratakatu 11-13",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/ratakatu1113.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, parvekkeiden korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, balkongrenovering, fönsterrenovering.",
+        "en": "Facade works, balcony renovation, window renovation."
+      },
+      "rating": 4
+    },
+    {
+      "id": 109,
+      "lat": 60.1745,
+      "lng": 24.954,
+      "name": "Helsingin ortodoksinen seurakunta",
+      "address": "Liisankatu 29",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/unioninkatu39.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt, parvekkeiden korjaustyöt, korjaustyöt, ikkunoiden korjaustyöt.",
+        "sv": "Fasadarbeten, plåtarbeten, balkongrenovering, renoveringsarbeten, fönsterrenovering.",
+        "en": "Facade works, sheet-metal works, balcony renovation, renovation works, window renovation."
+      },
+      "rating": 5
+    },
+    {
+      "id": 110,
+      "lat": 60.168,
+      "lng": 24.9377,
+      "name": "Asunto Oy Aino",
+      "address": "Yrjönkatu 12-14",
+      "city": "Helsinki",
+      "year": 2026,
+      "yearDisplay": "2026",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/yrjonkatu1214.jpg",
+      "description": {
+        "fi": "Julkisivutyöt, peltityöt.",
+        "sv": "Fasadarbeten, plåtarbeten.",
+        "en": "Facade works, sheet-metal works."
+      },
+      "rating": 5
+    },
+    {
+      "id": 111,
+      "lat": 60.1629567,
+      "lng": 24.9258422,
+      "name": "As Oy Nuoranpunoja",
+      "address": "Kalevankatu 54 – Köydenpunojankatu 7",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/nuoranpunoja.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 112,
+      "lat": 60.156689,
+      "lng": 24.9420308,
+      "name": "As Oy Weikkola",
+      "address": "Laivurinkatu 17-19",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/weikkola.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 113,
+      "lat": 60.179546,
+      "lng": 24.9214752,
+      "name": "Töölön kirkko",
+      "address": "Topeliuksenkatu 4",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/toolonkirkko.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 114,
+      "lat": 60.1884932,
+      "lng": 24.8846601,
+      "name": "Tamminiemi",
+      "address": "Seurasaarentie 15",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tamminiemi.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 115,
+      "lat": 60.1599325,
+      "lng": 24.9497777,
+      "name": "As Oy Wuorimies",
+      "address": "Vuorimiehenkatu 19",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/wuorimies.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 116,
+      "lat": 60.1625244,
+      "lng": 24.9419027,
+      "name": "As Oy Ratakatu 21",
+      "address": "Ratakatu 21",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/ratakatu21.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 117,
+      "lat": 60.1648391,
+      "lng": 24.946278,
+      "name": "As Oy Korkeavuorenhelmi",
+      "address": "Korkeavuorenkatu 31-33",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/korkeavuorenhelmi.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 118,
+      "lat": 60.2436252,
+      "lng": 24.8720301,
+      "name": "As Oy Urkupillintie 7",
+      "address": "Urkupillintie 7",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu,katto",
+      "image": "kuvat/referenssit/urkupillintie7.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 119,
+      "lat": 60.1781191,
+      "lng": 24.8109213,
+      "name": "As Oy Menninkäinen",
+      "address": "Menninkäisentie 2",
+      "city": "Espoo",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/menninkainen.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 120,
+      "lat": 60.1754395,
+      "lng": 24.955158,
+      "name": "As Oy Oikokatu 11",
+      "address": "Oikokatu 11",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu,katto",
+      "image": "kuvat/referenssit/oikokatu11.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 121,
+      "lat": 60.1568875,
+      "lng": 24.9351046,
+      "name": "Speranskintie 2-4",
+      "address": "Speranskintie 2-4",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/speranskintie.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 122,
+      "lat": 60.1876,
+      "lng": 25.0084,
+      "name": "Bostads Ab Stora Allen 18",
+      "address": "Stora Allén 18",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/storaallen18.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 123,
+      "lat": 60.1794246,
+      "lng": 24.924582,
+      "name": "As Oy Tykistönkatu 9",
+      "address": "Tykistönkatu 9",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "julkisivu",
+      "image": "kuvat/referenssit/tykistonkatu9.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 124,
+      "lat": 60.1722064,
+      "lng": 24.9447456,
+      "name": "As Oy Vilhola",
+      "address": "Mikonkatu 18",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/mikonkatu18.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "featured": true,
+      "rating": null
+    },
+    {
+      "id": 125,
+      "lat": 60.2325568,
+      "lng": 25.0645598,
+      "name": "As Oy Kurkisuontie 11",
+      "address": "Kurkisuontie 11",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/kurkisuontie11.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 126,
+      "lat": 60.2236426,
+      "lng": 24.9427799,
+      "name": "As Oy Tinasepäntie 41",
+      "address": "Tinasepäntie 41",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/tinasepantie41.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 127,
+      "lat": 60.2047659,
+      "lng": 25.035175,
+      "name": "As Oy Kettutie 5",
+      "address": "Kettutie 5",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/kettutie5.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 128,
+      "lat": 60.1652032,
+      "lng": 24.9347341,
+      "name": "KOy Lönnrotinkatu 19 A",
+      "address": "Lönnrotinkatu 19 A",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/lonnrotinkatu19a.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 129,
+      "lat": 60.1569011,
+      "lng": 24.9329313,
+      "name": "As Oy Hernesaarenkatu 7",
+      "address": "Hernesaarenkatu 7",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/hernesaarenkatu7.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 130,
+      "lat": 60.1650001,
+      "lng": 24.9287158,
+      "name": "As Oy Erkintalo",
+      "address": "Eerikinkatu 29",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/eerikinkatu29.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 131,
+      "lat": 60.2317499,
+      "lng": 24.883848,
+      "name": "KOy Pronssitie 1",
+      "address": "Pronssitie 1",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/pronssitie1.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 132,
+      "lat": 60.1715096,
+      "lng": 25.0785011,
+      "name": "As Oy Kärjensivu",
+      "address": "Puuskaniementie 46",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/puuskaniementie46.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 133,
+      "lat": 60.1884332,
+      "lng": 24.9606483,
+      "name": "As Oy Vaasankatu 3",
+      "address": "Vaasankatu 3",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/vaasankatu3.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 135,
+      "lat": 60.156663,
+      "lng": 24.9486213,
+      "name": "As Oy Heimo",
+      "address": "Laivanvarustajankatu 3",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/laivanvarustajankatu3.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 136,
+      "lat": 60.1924725,
+      "lng": 25.0293884,
+      "name": "Haaga liikekeskus 3",
+      "address": "Hitsaajankatu 9",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/hitsaajankatu9.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    },
+    {
+      "id": 137,
+      "lat": 60.1728112,
+      "lng": 25.0476766,
+      "name": "KOy VPK:n talo",
+      "address": "Svanströmintie 18",
+      "city": "Helsinki",
+      "year": null,
+      "yearDisplay": "",
+      "type": "katto",
+      "image": "kuvat/referenssit/svanstromintie18.jpg",
+      "description": {
+        "fi": "",
+        "sv": "",
+        "en": ""
+      },
+      "rating": null
+    }
+  ]
+}

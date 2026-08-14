@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="Untitled design.svg">
+  <title>Referenssit - Svkatto Oy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="alternate" hreflang="fi" href="https://svkatto.fi/referenssit.html" />
+  <link rel="alternate" hreflang="ru" href="https://svkatto.fi/ru/referenssit.html" />
+  <link rel="alternate" hreflang="en" href="https://svkatto.fi/en/referenssit.html" />
+  <link rel="alternate" hreflang="x-default" href="https://svkatto.fi/referenssit.html" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="nav-logo-text">Svkatto</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li class="mobile-nav-item mobile-lang-top">
+          <a href="referenssit.html" class="lang-link lang-active">FI</a>
+          <span class="lang-pipe">|</span>
+          <a href="ru/referenssit.html" class="lang-link">RU</a>
+          <span class="lang-pipe">|</span>
+          <a href="en/referenssit.html" class="lang-link">EN</a>
+        </li>
+        <li><a href="index.html#yritys">Yritys</a></li>
+        <li class="has-dropdown">
+          <a href="index.html#palvelut">Palvelut <span class="dropdown-arrow">▾</span></a>
+          <ul class="dropdown">
+            <li><a href="konesaumakatto.html">Konesaumakatto</a></li>
+            <li><a href="metallijulkisivut.html">Metallijulkisivut ja parvekkeet</a></li>
+            <li><a href="muut-tyot.html">Muut työt</a></li>
+          </ul>
+        </li>
+        <li class="mobile-nav-item mobile-service-item"><a href="konesaumakatto.html">Konesaumakatto</a></li>
+        <li class="mobile-nav-item mobile-service-item"><a href="metallijulkisivut.html">Metallijulkisivut ja parvekkeet</a></li>
+        <li class="mobile-nav-item mobile-service-item"><a href="muut-tyot.html">Muut työt</a></li>
+        <li><a href="referenssit.html">Referenssit</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="index.html#yhteystiedot">Yhteystiedot</a></li>
+        <li><a href="laskutusohjeet.html">Laskutusohjeet</a></li>
+        <li class="mobile-nav-item mobile-cta-item">
+          <a href="mailto:info@svkatto.fi">Ota yhteyttä</a>
+        </li>
+      </ul>
+      <div class="lang-switcher">
+        <a href="referenssit.html" class="lang-link lang-active">FI</a>
+        <span class="lang-sep">/</span>
+        <a href="ru/referenssit.html" class="lang-link">RU</a>
+        <span class="lang-sep">/</span>
+        <a href="en/referenssit.html" class="lang-link">EN</a>
+      </div>
+      <a href="mailto:info@svkatto.fi" class="nav-cta">Ota yhteyttä</a>
+      <button class="hamburger" id="hamburger" aria-label="Avaa valikko">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero page-hero--light page-hero--refs">
+    <div class="page-hero-content">
+      <div class="refs-hero-grid">
+        <div class="refs-hero-text">
+          <h1>Referenssit</h1>
+          <div class="hero-counter">
+            <span class="hero-counter-number" id="project-count">0</span>
+            <span class="hero-counter-label">tehtyä projektia ammattitaidolla</span>
+          </div>
+        </div>
+        <div class="refs-hero-map-wrap">
+          <div id="refs-map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="refs-controls-section">
+    <div class="section-container">
+      <div class="refs-filters">
+        <select id="refs-filter-type" class="refs-select"></select>
+        <select id="refs-filter-year" class="refs-select"></select>
+        <button id="refs-filter-clear" class="refs-clear-btn"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="refs-list-section">
+    <div class="section-container">
+      <div id="refs-project-list"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <span class="footer-logo"><span class="footer-logo-text">Svkatto Oy</span></span>
+      <span class="footer-copy">© 2025 Svkatto Oy - Pähkinätie 12 A1, 01710 Vantaa</span>
+      <span class="footer-tagline">Tehdään mitä luvataan</span>
+      <span class="footer-contact">Marko Mürkel <a href="tel:0505813227">050 581 3227</a> <a href="mailto:info@svkatto.fi">info@svkatto.fi</a></span>
+    </div>
+    <div class="footer-links">
+      <a href="laskutusohjeet.html" class="footer-link">Laskutusohjeet</a>
+      <a href="tietosuojaseloste.html" class="footer-link">Tietosuoja</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="referenssit.js"></script>
+</body>
+</html>

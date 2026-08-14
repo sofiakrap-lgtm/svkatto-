@@ -1,0 +1,6 @@
+LOGO
+Laita tähän Svkatton logo(t). Suositus:
+- logo-tumma.svg  (tummalle taustalle, navigaatioon)
+- logo-vaalea.svg (vaalealle taustalle)
+- favicon.svg     (selaimen välilehden ikoni)
+SVG on paras (skaalautuu terävänä). PNG käy myös (läpinäkyvä tausta).
