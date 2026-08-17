@@ -415,6 +415,17 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 340px;
 }
 
+.hero-badge {
+  position: absolute;
+  left: 51%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  width: clamp(96px, 11vw, 150px);
+  height: auto;
+  z-index: 3;
+  filter: drop-shadow(0 6px 20px rgba(0,0,0,0.35));
+}
+
 .hero-overlay { display: none; }
 
 .hero-content {
@@ -426,6 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-text { padding: 6.5rem 1.75rem 3rem; }
   .hero-image { min-height: 300px; }
+  .hero-badge { left: auto; right: 5%; bottom: 5%; transform: none; width: 92px; }
 }
 
 .hero-eyebrow {
