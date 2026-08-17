@@ -3085,7 +3085,7 @@ h1, h2, h3, h4, h5, h6 {
 .invoice-value a:hover { text-decoration: underline; }
 
 /* Svkatto text logo */
-.nav-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.95rem;letter-spacing:.01em;color:var(--off-white);white-space:nowrap}
+.nav-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.15rem;letter-spacing:.01em;color:var(--off-white);white-space:nowrap}
 .footer-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.3rem;color:var(--white)}
 .navbar .nav-logo-text{color:var(--off-white)}
-@media (max-width: 600px){ .nav-logo-text{font-size:1.55rem} }
+@media (max-width: 600px){ .nav-logo-text{font-size:0.95rem} }
