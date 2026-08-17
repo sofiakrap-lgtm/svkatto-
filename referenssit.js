@@ -14,11 +14,9 @@
 
   // Työkategoriat (suodatus avainsanoilla kuvauksesta/tyypistä)
   var cats = [
-    { value: 'korjaus',   fi: 'Korjaustyöt',              sv: 'Reparationsarbeten', en: 'Repair works',      kw: ['korjaus', 'saneeraus', 'kunnostus', 'remontti', 'restaur', 'entisöin'] },
-    { value: 'pelti',     fi: 'Peltityöt',                sv: 'Plåtarbeten',        en: 'Sheet metal works', kw: ['pelti', 'katto', 'vesikat'] },
-    { value: 'julkisivu', fi: 'Julkisivutyöt',            sv: 'Fasadarbeten',       en: 'Facade works',      kw: ['julkisivu', 'rappau'] },
-    { value: 'ikkuna',    fi: 'Ikkunoiden korjaustyöt',   sv: 'Fönsterarbeten',     en: 'Window works',      kw: ['ikkun'] },
-    { value: 'parveke',   fi: 'Parvekkeiden korjaustyöt', sv: 'Balkongarbeten',     en: 'Balcony works',     kw: ['parvek'] }
+    { value: 'konesauma', fi: 'Konesaumakatto',                 ru: 'Фальцевая кровля',              en: 'Standing seam roofing',      sv: 'Falsat plåttak',            kw: ['konesauma', 'pelti', 'katto', 'vesikat'] },
+    { value: 'metalli',   fi: 'Metallijulkisivut ja pellitykset', ru: 'Металлические фасады и отделка', en: 'Metal facades and cladding', sv: 'Metallfasader och beslag',  kw: ['metalli', 'julkisivu', 'karniisi', 'pelli', 'räystäs'] },
+    { value: 'turva',     fi: 'Sadevesi ja kattoturva',         ru: 'Водостоки и безопасность',      en: 'Rainwater and roof safety',  sv: 'Regnvatten och taksäkerhet', kw: ['sadevesi', 'lumieste', 'turva', 'kouru', 'syöksy', 'tikka', 'kulkusil'] }
   ];
   function catMatch(p, value) {
     var cat;

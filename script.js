@@ -200,7 +200,7 @@ if (sections.length) {
           '<div class="cf-field"><label>' + t.lMsg + '</label><textarea name="message" required></textarea></div>' +
           '<button type="submit" class="btn btn-primary cf-submit">' + t.send + '</button>' +
           '<p class="cf-privacy" style="font-size:0.78rem;color:var(--gray-light);margin-top:0.8rem;text-align:center;">' + t.privacy + '</p>' +
-          '<p class="cf-error" role="alert" style="display:none;color:#8B2213;font-family:var(--font-heading);font-size:0.85rem;margin-top:0.9rem;text-align:center;"></p>' +
+          '<p class="cf-error" role="alert" style="display:none;color:#CE3200;font-family:var(--font-heading);font-size:0.85rem;margin-top:0.9rem;text-align:center;"></p>' +
         '</form>' +
       '</div>' +
       '<div class="cf-toast-view" style="display:none;">' +

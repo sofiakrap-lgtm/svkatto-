@@ -5,8 +5,8 @@
 }
 
 :root {
-  --red: #b17559;
-  --red-dark: #965f46;
+  --red: #F68714;
+  --red-dark: #d9730a;
   --dark: #2f372b;
   --dark-2: #262c22;
   --dark-3: #333a2f;
@@ -1132,7 +1132,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  background: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #221010 75%, #8B2213 100%);
+  background: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1f1408 75%, #7a3e0a 100%);
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1581,7 +1581,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 15px;
     right: 20px;
     z-index: 9999;
-    background: #8B2213;
+    background: #CE3200;
     padding: 8px;
     border-radius: 4px;
     gap: 6px;
