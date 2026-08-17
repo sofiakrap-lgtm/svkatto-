@@ -161,6 +161,21 @@ if (sections.length) {
       close: 'Close',
       lName: 'Name', lEmail: 'Email', lPhone: 'Phone', lCompany: 'Company', lMsg: 'Message',
       privacy: 'By submitting you accept the <a href="tietosuojaseloste.html" target="_blank" rel="noopener">privacy policy</a>.'
+    },
+    ru: {
+      eyebrow: 'Связаться', title: 'Отправить сообщение',
+      intro: 'Заполните форму, и мы свяжемся с вами как можно скорее.',
+      name: 'Имя', email: 'Эл. почта', phone: 'Телефон', company: 'Компания',
+      optional: '(необязательно)', message: 'Сообщение', send: 'Отправить сообщение',
+      sending: 'Отправка…',
+      errorMsg: 'Не удалось отправить сообщение. Попробуйте ещё раз или напишите на info@svkatto.fi.',
+      mailSubject: 'Обращение с сайта',
+      thanksTitle: 'Спасибо за обращение!',
+      thanksBody: 'Ваше сообщение отправлено. Мы постараемся ответить как можно скорее.',
+      urgent: 'В срочных случаях свяжитесь по электронной почте:',
+      close: 'Закрыть',
+      lName: 'Имя', lEmail: 'Эл. почта', lPhone: 'Телефон', lCompany: 'Компания', lMsg: 'Сообщение',
+      privacy: 'Отправляя, вы принимаете <a href="tietosuojaseloste.html" target="_blank" rel="noopener">политику конфиденциальности</a>.'
     }
   };
   var t = S[lang];
@@ -306,11 +321,12 @@ if (sections.length) {
   var footer = document.querySelector('.footer');
   if (!footer) return;
   var lang = document.documentElement.lang || 'fi';
-  var base = (location.pathname.indexOf('/sv/') !== -1 || location.pathname.indexOf('/en/') !== -1) ? '../' : '';
+  var base = (location.pathname.indexOf('/sv/') !== -1 || location.pathname.indexOf('/ru/') !== -1 || location.pathname.indexOf('/en/') !== -1) ? '../' : '';
   var L = ({
     fi: { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' },
     sv: { label: 'Kontakt', heading: 'Svkatto till er tjänst', lead: 'Arbetsledare, Partner' },
-    en: { label: 'Contact', heading: 'Svkatto at your service', lead: 'Site manager, Partner' }
+    en: { label: 'Contact', heading: 'Svkatto at your service', lead: 'Site manager, Partner' },
+    ru: { label: 'Контакты', heading: 'Svkatto к вашим услугам', lead: '' }
   })[lang] || { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' };
   function card(av, name, role, tel, telDisp, email) {
     return '<div class="contact-card"><div class="contact-avatar">' + av + '</div>' +
@@ -326,12 +342,12 @@ if (sections.length) {
     '<div class="contact-info">' +
     '<div class="contact-block"><p class="contact-company">Svkatto Oy</p><p>Pähkinätie 12 A1<br>01710 Vantaa</p>' +
     '<p class="contact-detail">Y-tunnus: 3510360-8</p></div>' +
-    '<div class="contact-block"><span class="contact-link">Puh. lisätään pian</span>' +
+    '<div class="contact-block">' +
     '<a href="mailto:info@svkatto.fi" class="contact-link">info@svkatto.fi</a></div>' +
     '<img src="' + base + 'kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
-    '<p class="contact-note">Tiimin yhteystiedot lisätään pian.</p>' +
+    '<p class="contact-note">' + (lang === 'ru' ? 'Мы работаем с частными клиентами, жилищными компаниями и по субподряду по всей Уусимаа. Свяжитесь с нами: info@svkatto.fi' : 'Palvelemme yksityisasiakkaita, taloyhtiöitä ja urakoitsijoita koko Uudellamaalla. Ota yhteyttä: info@svkatto.fi') + '</p>' +
     '</div></div></div></section>';
   footer.insertAdjacentHTML('beforebegin', html);
 })();

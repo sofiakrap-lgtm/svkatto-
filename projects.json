@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Taloyhtiö (demo)",
-      "org": "As Oy",
+      "name": "",
+      "org": "",
       "address": "Arkadiankatu 30",
       "city": "Helsinki",
       "lat": 60.1705,
@@ -11,12 +11,13 @@
       "yearDisplay": "2025",
       "image": "kuvat/palvelut/14ef696c-a3ce-47b1-bf18-3b136637e63e.jpg",
       "description": {
-        "fi": "Konesaumakaton uusiminen ja pellitykset. (Demokohde – korvataan oikealla.)"
+        "fi": "Konesaumakaton uusiminen ja pellitykset.",
+        "ru": "Замена фальцевой кровли и отделка."
       }
     },
     {
-      "name": "Rivitalo (demo)",
-      "org": "As Oy",
+      "name": "",
+      "org": "",
       "address": "Kilonkallio 5",
       "city": "Espoo",
       "lat": 60.218,
@@ -25,12 +26,13 @@
       "yearDisplay": "2025",
       "image": "kuvat/palvelut/df660b2d-c6fe-4a0d-a196-10c67a70f9f3.jpg",
       "description": {
-        "fi": "Konesaumakatto ja sadevesijärjestelmät. (Demokohde.)"
+        "fi": "Konesaumakatto ja sadevesijärjestelmät.",
+        "ru": "Фальцевая кровля и водосточные системы."
       }
     },
     {
-      "name": "Kerrostalo (demo)",
-      "org": "As Oy",
+      "name": "",
+      "org": "",
       "address": "Tikkurilantie 40",
       "city": "Vantaa",
       "lat": 60.293,
@@ -39,12 +41,13 @@
       "yearDisplay": "2024",
       "image": "kuvat/palvelut/504b0f17-a8bf-44f2-8d3f-7a907db14b64.JPG",
       "description": {
-        "fi": "Peltikaton uusiminen ja piipunhatut. (Demokohde.)"
+        "fi": "Peltikaton uusiminen ja piipun pellitykset.",
+        "ru": "Замена металлической кровли и отделка дымохода."
       }
     },
     {
-      "name": "Toimistorakennus (demo)",
-      "org": "Kiinteistö Oy",
+      "name": "",
+      "org": "",
       "address": "Mannerheimintie 100",
       "city": "Helsinki",
       "lat": 60.192,
@@ -53,12 +56,13 @@
       "yearDisplay": "2024",
       "image": "kuvat/palvelut/9eefa619-efb3-4ac2-8060-926765474146.jpg",
       "description": {
-        "fi": "Metallijulkisivut ja parvekkeiden pellitykset. (Demokohde.)"
+        "fi": "Metalliset julkisivupellitykset ja karniisit.",
+        "ru": "Металлическая отделка фасада и карнизы."
       }
     },
     {
-      "name": "Taloyhtiö (demo)",
-      "org": "As Oy",
+      "name": "",
+      "org": "",
       "address": "Hämeentie 55",
       "city": "Helsinki",
       "lat": 60.187,
@@ -67,11 +71,12 @@
       "yearDisplay": "2024",
       "image": "kuvat/palvelut/74ea3c89-f785-460c-9ee6-8bbc13aee16b.jpg",
       "description": {
-        "fi": "Konesaumakatto ja kattoturvatuotteet. (Demokohde.)"
+        "fi": "Konesaumakatto ja kattoturvatuotteet.",
+        "ru": "Фальцевая кровля и элементы безопасности."
       }
     },
     {
-      "name": "Omakotitalo (demo)",
+      "name": "",
       "org": "",
       "address": "Kuninkaantie 12",
       "city": "Vantaa",
@@ -81,7 +86,8 @@
       "yearDisplay": "2023",
       "image": "kuvat/palvelut/a57c1256-3b73-48d2-bc97-40fdda42edee.jpg",
       "description": {
-        "fi": "Konesaumakatto ja lumiesteet. (Demokohde.)"
+        "fi": "Konesaumakatto ja lumiesteet.",
+        "ru": "Фальцевая кровля и снегозадержатели."
       }
     }
   ]

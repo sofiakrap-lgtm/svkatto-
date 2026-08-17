@@ -1,13 +1,14 @@
 (function () {
   var lang = document.documentElement.lang || 'fi';
   var path = window.location.pathname;
-  var inSub = path.indexOf('/sv/') !== -1 || path.indexOf('/en/') !== -1;
+  var inSub = path.indexOf('/sv/') !== -1 || path.indexOf('/ru/') !== -1 || path.indexOf('/en/') !== -1;
   var base = inSub ? '../' : '';
 
   var labels = {
     fi: { allTypes: 'Kaikki tyypit', facade: 'Julkisivutyöt', roof: 'Kattosaneeraus', allYears: 'Kaikki vuodet', older: 'Vanhemmat', clear: 'Tyhjennä suodatus', none: 'Ei tuloksia valituilla suodattimilla.' },
     sv: { allTypes: 'Alla typer', facade: 'Fasadarbeten', roof: 'Takrenovering', allYears: 'Alla år', older: 'Äldre', clear: 'Rensa filter', none: 'Inga resultat med valda filter.' },
-    en: { allTypes: 'All types', facade: 'Facade works', roof: 'Roof renovation', allYears: 'All years', older: 'Earlier', clear: 'Clear filters', none: 'No results for the selected filters.' }
+    en: { allTypes: 'All types', facade: 'Facade works', roof: 'Roof renovation', allYears: 'All years', older: 'Earlier', clear: 'Clear filters', none: 'No results for the selected filters.' },
+    ru: { allTypes: 'Все типы', facade: 'Фасадные работы', roof: 'Кровельные работы', allYears: 'Все годы', older: 'Ранее', clear: 'Сбросить фильтры', none: 'Нет объектов по выбранным фильтрам.' }
   };
   var t = labels[lang] || labels.fi;
 
