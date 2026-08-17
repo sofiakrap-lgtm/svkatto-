@@ -346,7 +346,7 @@ if (sections.length) {
     '<p class="contact-detail">' + vatLabel + ': FI35103608</p></div>' +
     '<div class="contact-block">' +
     '<a href="mailto:info@svkatto.fi" class="contact-link">info@svkatto.fi</a></div>' +
-    '<img src="' + base + 'kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani" class="contact-cert">' +
+    '<img src="' + base + 'kuvat/logo/svkatto-tunnus-vaalea.svg" alt="Svkatto Oy" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
     card('VS', 'Viktor Stepanov', L.ceo, '+358458615399', '045 861 5399', 'stepanovv515@gmail.com') +

@@ -394,48 +394,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 640px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: stretch;
   overflow: hidden;
-  padding-top: 6rem;
-  background: url('kuvat/palvelut/14ef696c-a3ce-47b1-bf18-3b136637e63e.jpg') 62% 62% / cover no-repeat;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 72% 55%, rgba(139,34,19,0.16) 0%, transparent 65%),
-    radial-gradient(ellipse 45% 45% at 20% 30%, rgba(255,255,255,0.015) 0%, transparent 55%);
+.hero-text {
+  background: var(--off-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 7rem clamp(1.75rem, 5vw, 5.5rem) 4rem;
 }
 
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
-  background-size: 80px 80px;
-  mask-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.35) 25%, rgba(0,0,0,0.35) 75%, transparent);
+.hero-image {
+  background: url('kuvat/palvelut/14ef696c-a3ce-47b1-bf18-3b136637e63e.jpg') 55% 55% / cover no-repeat;
+  min-height: 340px;
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.5);
-}
+.hero-overlay { display: none; }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  text-align: center;
-  max-width: 820px;
-  padding: 0 2rem;
+}
+
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-text { padding: 6.5rem 1.75rem 3rem; }
+  .hero-image { min-height: 300px; }
 }
 
 .hero-eyebrow {
@@ -465,42 +455,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 3.85rem);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.025em;
-  color: var(--white);
+  font-size: clamp(1.7rem, 3.4vw, 2.7rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--ink);
   margin-bottom: 1rem;
-  text-shadow: 0 2px 40px rgba(0,0,0,0.45);
 }
 
 .hero-services {
   font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2.2vw, 1.35rem);
+  font-size: clamp(0.8rem, 1.4vw, 0.95rem);
   font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  margin: 0 0 2.5rem;
-  text-shadow: 0 2px 24px rgba(0,0,0,0.45);
+  letter-spacing: 0.06em;
+  color: var(--red);
+  margin: 0 0 1.75rem;
 }
 
 .hero-subtitle {
   font-family: var(--font-body);
-  font-size: clamp(1.1rem, 2.2vw, 1.35rem);
-  color: #ffffff;
-  font-weight: 300;
-  line-height: 1.75;
-  margin-bottom: 2.75rem;
-  max-width: 540px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 2.25rem;
+  max-width: 520px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.hero-text .btn-outline {
+  color: var(--ink);
+  border-color: rgba(0,0,0,0.25);
+}
+
+.hero-text .btn-outline:hover {
+  background: rgba(0,0,0,0.05);
+  border-color: rgba(0,0,0,0.5);
 }
 
 .hero-scroll-indicator {
@@ -528,9 +524,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ======== FACTS BAR ======== */
 
 .facts-bar {
-  background: var(--dark-2);
-  border-top: 1px solid rgba(255,255,255,0.05);
-  border-bottom: 1px solid var(--border);
+  background: var(--off-white);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   padding: 1.5rem 2rem;
 }
 
@@ -554,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: var(--white);
+  color: var(--ink);
   line-height: 1;
   margin-bottom: 0.4rem;
 }
@@ -566,13 +562,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.42);
+  color: rgba(0,0,0,0.5);
 }
 
 .fact-divider {
   width: 1px;
   height: 48px;
-  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.12), transparent);
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.15), transparent);
   flex-shrink: 0;
 }
 
@@ -945,12 +941,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-cert {
   display: block;
-  width: 250px;
+  width: 170px;
   height: auto;
-  margin-top: 0.5rem;
-  margin-left: -1.9rem;
-  filter: brightness(0) invert(1);
-  opacity: 0.55;
+  margin-top: 1rem;
+  opacity: 0.9;
   pointer-events: none;
 }
 
