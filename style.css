@@ -19,7 +19,7 @@
   --accent-cream: #e8d5be;
 
   --font-heading: 'Archivo', system-ui, sans-serif;
-  --font-body: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Archivo', system-ui, sans-serif;
 
   --transition: 0.3s ease;
   --radius: 4px;
@@ -205,15 +205,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo {
   display: flex;
   align-items: center;
+  gap: 0.6rem;
   text-decoration: none;
   flex-shrink: 0;
 }
 
 .nav-logo-img {
-  height: 78px;
+  height: 48px;
   width: auto;
   display: block;
 }
+
+@media (max-width: 600px){ .nav-logo-img{ height: 40px; } }
 
 .lang-switcher {
   display: flex;
@@ -3081,7 +3084,8 @@ h1, h2, h3, h4, h5, h6 {
 .invoice-value a { color: #b5281b; text-decoration: none; }
 .invoice-value a:hover { text-decoration: underline; }
 
-/* Svkatto text logo (väliaikainen ennen logo-tiedostoa) */
-.nav-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.4rem;letter-spacing:.02em;color:var(--white)}
+/* Svkatto text logo */
+.nav-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.95rem;letter-spacing:.01em;color:var(--off-white);white-space:nowrap}
 .footer-logo-text{font-family:var(--font-heading);font-weight:700;font-size:1.3rem;color:var(--white)}
-.navbar .nav-logo-text{color:#fff}
+.navbar .nav-logo-text{color:var(--off-white)}
+@media (max-width: 600px){ .nav-logo-text{font-size:1.55rem} }
