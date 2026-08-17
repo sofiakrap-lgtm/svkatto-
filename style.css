@@ -524,9 +524,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ======== FACTS BAR ======== */
 
 .facts-bar {
-  background: var(--off-white);
-  border-top: 1px solid rgba(0,0,0,0.06);
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  background: var(--dark-2);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid var(--border);
   padding: 1.5rem 2rem;
 }
 
@@ -550,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: var(--ink);
+  color: var(--white);
   line-height: 1;
   margin-bottom: 0.4rem;
 }
@@ -562,13 +562,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.42);
 }
 
 .fact-divider {
   width: 1px;
   height: 48px;
-  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.15), transparent);
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.12), transparent);
   flex-shrink: 0;
 }
 
