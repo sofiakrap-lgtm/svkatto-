@@ -109,7 +109,7 @@ if (sections.length) {
   var CONTACT_EMAIL = 'info@svkatto.fi';
   // Formspree-endpoint. Liitä tähän tilisi osoite, esim. 'https://formspree.io/f/xxxxxxx'.
   // Kun tämä on tyhjä, lomake käyttää varavaihtoehtona kävijän omaa sähköpostiohjelmaa (mailto).
-  var FORMSPREE_ENDPOINT = 'https://formspree.io/f/mdavzwgy';
+  var FORMSPREE_ENDPOINT = '';
   var PHONE = 'info@svkatto.fi';
   var PHONE_TEL = '';
 
@@ -323,17 +323,18 @@ if (sections.length) {
   var lang = document.documentElement.lang || 'fi';
   var base = (location.pathname.indexOf('/sv/') !== -1 || location.pathname.indexOf('/ru/') !== -1 || location.pathname.indexOf('/en/') !== -1) ? '../' : '';
   var L = ({
-    fi: { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' },
-    sv: { label: 'Kontakt', heading: 'Svkatto till er tjänst', lead: 'Arbetsledare, Partner' },
-    en: { label: 'Contact', heading: 'Svkatto at your service', lead: 'Site manager, Partner' },
-    ru: { label: 'Контакты', heading: 'Svkatto к вашим услугам', lead: '' }
-  })[lang] || { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', lead: 'Työnjohtaja, Partner' };
+    fi: { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', ceo: 'Toimitusjohtaja', billing: 'Laskutus', note: 'Palvelemme yksityisasiakkaita, taloyhtiöitä ja urakoitsijoita koko Uudellamaalla suomeksi, venäjäksi ja englanniksi.' },
+    sv: { label: 'Kontakt', heading: 'Svkatto till er tjänst', ceo: 'VD', billing: 'Fakturering', note: 'Vi betjänar privatkunder, husbolag och entreprenörer i hela Nyland på finska, ryska och engelska.' },
+    en: { label: 'Contact', heading: 'Svkatto at your service', ceo: 'Managing Director', billing: 'Invoicing', note: 'We serve private customers, housing companies and contractors across Uusimaa in Finnish, Russian and English.' },
+    ru: { label: 'Контакты', heading: 'Svkatto к вашим услугам', ceo: 'Генеральный директор', billing: 'Счета и оплата', note: 'Мы работаем с частными клиентами, жилищными компаниями и подрядчиками по всей Уусимаа на финском, русском и английском языках.' }
+  })[lang] || { label: 'Yhteystiedot', heading: 'Svkatto palveluksessanne', ceo: 'Toimitusjohtaja', billing: 'Laskutus', note: 'Palvelemme yksityisasiakkaita, taloyhtiöitä ja urakoitsijoita koko Uudellamaalla suomeksi, venäjäksi ja englanniksi.' };
   function card(av, name, role, tel, telDisp, email) {
     return '<div class="contact-card"><div class="contact-avatar">' + av + '</div>' +
       '<div class="contact-card-info"><h3>' + name + '</h3><p class="contact-role">' + role + '</p>' +
       '<a href="tel:' + tel + '" class="contact-phone">' + telDisp + '</a></div>' +
       '<a href="mailto:' + email + '" class="contact-card-email">' + email + '</a></div>';
   }
+  var vatLabel = (lang === 'ru') ? 'НДС' : (lang === 'en' ? 'VAT' : 'ALV-tunnus');
   var html =
     '<section class="contact" id="yhteystiedot"><div class="section-container">' +
     '<div class="section-header"><span class="section-label section-label--light">' + L.label + '</span>' +
@@ -341,13 +342,16 @@ if (sections.length) {
     '<div class="contact-grid">' +
     '<div class="contact-info">' +
     '<div class="contact-block"><p class="contact-company">Svkatto Oy</p><p>Pähkinätie 12 A1<br>01710 Vantaa</p>' +
-    '<p class="contact-detail">Y-tunnus: 3510360-8</p></div>' +
+    '<p class="contact-detail">Y-tunnus: 3510360-8</p>' +
+    '<p class="contact-detail">' + vatLabel + ': FI35103608</p></div>' +
     '<div class="contact-block">' +
     '<a href="mailto:info@svkatto.fi" class="contact-link">info@svkatto.fi</a></div>' +
     '<img src="' + base + 'kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
-    '<p class="contact-note">' + (lang === 'ru' ? 'Мы работаем с частными клиентами, жилищными компаниями и по субподряду по всей Уусимаа. Свяжитесь с нами: info@svkatto.fi' : 'Palvelemme yksityisasiakkaita, taloyhtiöitä ja urakoitsijoita koko Uudellamaalla. Ota yhteyttä: info@svkatto.fi') + '</p>' +
+    card('VS', 'Viktor Stepanov', L.ceo, '+358458615399', '045 861 5399', 'stepanovv515@gmail.com') +
+    card('AS', 'Agata Stepanova', L.billing, '+358442977865', '044 297 7865', 'Agata.zateeva@gmail.com') +
+    '<p class="contact-note">' + L.note + '</p>' +
     '</div></div></div></section>';
   footer.insertAdjacentHTML('beforebegin', html);
 })();

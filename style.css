@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-title {
   font-family: var(--font-heading);
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(2rem, 5vw, 3.85rem);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.025em;
@@ -754,6 +754,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-card:hover .service-card-arrow {
   color: rgba(255,255,255,0.65);
+}
+
+.service-card-btn {
+  display: inline-block;
+  margin-top: 1.3rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--red);
+  color: var(--white);
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  transition: background var(--transition), transform var(--transition);
+}
+
+.service-card:hover .service-card-btn {
+  background: var(--red-dark);
+  transform: translateY(-1px);
 }
 
 .service-card-no-link {
@@ -1417,12 +1437,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .myrak-item h3 {
   font-family: var(--font-heading);
-  font-size: 0.92rem;
-  font-weight: 600;
+  font-size: 1.18rem;
+  font-weight: 700;
   letter-spacing: 0.01em;
   color: var(--white);
   margin-bottom: 0.75rem;
-  line-height: 1.35;
+  line-height: 1.3;
+}
+
+.myrak-section .section-title {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
 }
 
 .myrak-item p {
@@ -1430,6 +1454,59 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.82rem;
   color: rgba(255,255,255,0.42);
   line-height: 1.7;
+}
+
+/* ======== TESTIMONIALS / PALAUTTEET ======== */
+.testimonials {
+  background: var(--off-white);
+  padding: 7rem 0;
+}
+.testimonials .section-title { color: var(--dark); }
+.testimonials .section-subtitle { color: var(--gray-light); }
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 3rem;
+}
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+.testimonial-stars {
+  color: var(--red);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 1.1rem;
+}
+.testimonial-text {
+  font-family: var(--font-body);
+  font-size: 1.12rem;
+  font-style: italic;
+  color: #3a3a3a;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+.testimonial-author {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+.testimonial-role {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  color: var(--gray-light);
+  margin-top: 0.2rem;
+}
+@media (max-width: 900px) {
+  .testimonials-grid { grid-template-columns: 1fr; }
 }
 
 /* ======== GALLERIA ======== */
@@ -1899,7 +1976,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 480px) {
-  .hero-title { font-size: 2.4rem; }
+  .hero-title { font-size: 1.7rem; }
   .hero-buttons { flex-direction: column; align-items: center; }
   .btn { width: 100%; justify-content: center; max-width: 300px; }
   .section-container { padding: 0 1.25rem; }
