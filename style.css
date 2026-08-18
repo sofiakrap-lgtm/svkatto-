@@ -2753,7 +2753,19 @@ h1, h2, h3, h4, h5, h6 {
 .contact-card-email:hover { color: #e8b4a8; }
 
 @media (max-width: 600px) {
-  .contact-card-email { position: static; display: block; margin-top: 0.35rem; }
+  .contact-card { flex-wrap: wrap; align-items: center; gap: 0.9rem 1rem; padding: 1.1rem 1.25rem; }
+  .contact-card-info { flex: 1 1 0; min-width: 0; }
+  .contact-card-info h3 { font-size: 1rem; }
+  .contact-phone { white-space: nowrap; }
+  .contact-card-email {
+    position: static;
+    flex-basis: 100%;
+    width: 100%;
+    margin: 0.2rem 0 0;
+    text-align: left;
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
 }
 
 /* ======== PREMISES (toimitilat) ======== */
