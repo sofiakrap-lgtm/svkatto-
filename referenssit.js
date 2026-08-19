@@ -82,6 +82,11 @@
       m.on('mouseout', function () { this.closePopup(); });
       markers.push(m);
     });
+    if (markers.length) {
+      try {
+        map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [40, 40], maxZoom: 12 });
+      } catch (e) { /* ignore */ }
+    }
   }
 
   function getFiltered() {

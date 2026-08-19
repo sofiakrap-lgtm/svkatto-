@@ -294,6 +294,7 @@
       popupAnchor: [0, -34]
     });
 
+    const _mk = [];
     const kohde = (lat, lng, title, address, kuva, kuvaus, aika) => {
       const addressLine = address ? `<div style="font-size:0.74rem;color:#666;margin-bottom:7px;line-height:1.4;">${address}</div>` : '';
       const imgTag = kuva ? `<img src="${kuva}" alt="${title}" style="width:180px;height:160px;object-fit:cover;flex-shrink:0;display:block;">` : '';
@@ -310,6 +311,7 @@
       const m = L.marker([lat, lng], { icon }).addTo(map).bindPopup(popup, { maxWidth: 460 });
       m.on('mouseover', function() { this.openPopup(); });
       m.on('mouseout', function() { this.closePopup(); });
+      _mk.push(m);
     };
 
     // Kaikki kohteet projects.json:sta
@@ -322,6 +324,11 @@
           const desc = (p.description && (p.description.ru || p.description.fi)) || '';
           kohde(p.lat, p.lng, p.name, addr, p.image ? '../' + p.image : '', desc, p.yearDisplay || '');
         });
+        if (_mk.length) {
+          try {
+            map.fitBounds(L.featureGroup(_mk).getBounds(), { padding: [30, 30], maxZoom: 12 });
+          } catch (e) { /* ignore */ }
+        }
       })
       .catch(e => console.error('projects.json load error', e));
   </script>
