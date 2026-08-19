@@ -106,11 +106,11 @@ if (sections.length) {
 
 /* ======== CONTACT FORM MODAL (mailto-based) ======== */
 (function () {
-  var CONTACT_EMAIL = 'stepanovv515@gmail.com';
+  var CONTACT_EMAIL = 'viktor.stepanov@svkatto.com';
   // Formspree-endpoint. Liitä tähän tilisi osoite, esim. 'https://formspree.io/f/xxxxxxx'.
   // Kun tämä on tyhjä, lomake käyttää varavaihtoehtona kävijän omaa sähköpostiohjelmaa (mailto).
   var FORMSPREE_ENDPOINT = '';
-  var PHONE = 'stepanovv515@gmail.com';
+  var PHONE = 'viktor.stepanov@svkatto.com';
   var PHONE_TEL = '';
 
   var lang = (document.documentElement.lang || 'fi').slice(0, 2).toLowerCase();
@@ -123,7 +123,7 @@ if (sections.length) {
       name: 'Nimi', email: 'Sähköposti', phone: 'Puhelin', company: 'Yritys',
       optional: '(valinnainen)', message: 'Viesti', send: 'Lähetä viesti',
       sending: 'Lähetetään…',
-      errorMsg: 'Viestin lähetys ei onnistunut. Yritä uudelleen tai laita viesti osoitteeseen stepanovv515@gmail.com.',
+      errorMsg: 'Viestin lähetys ei onnistunut. Yritä uudelleen tai laita viesti osoitteeseen viktor.stepanov@svkatto.com.',
       mailSubject: 'Yhteydenotto verkkosivulta',
       thanksTitle: 'Kiitos yhteydenotostasi!',
       thanksBody: 'Viestisi on lähetetty. Yritämme vastata mahdollisimman pian.',
@@ -138,7 +138,7 @@ if (sections.length) {
       name: 'Namn', email: 'E-post', phone: 'Telefon', company: 'Företag',
       optional: '(valfritt)', message: 'Meddelande', send: 'Skicka meddelande',
       sending: 'Skickar…',
-      errorMsg: 'Meddelandet kunde inte skickas. Försök igen eller mejla stepanovv515@gmail.com.',
+      errorMsg: 'Meddelandet kunde inte skickas. Försök igen eller mejla viktor.stepanov@svkatto.com.',
       mailSubject: 'Kontakt via webbplatsen',
       thanksTitle: 'Tack för din kontakt!',
       thanksBody: 'Ditt meddelande har skickats. Vi försöker svara så snart som möjligt.',
@@ -153,7 +153,7 @@ if (sections.length) {
       name: 'Name', email: 'Email', phone: 'Phone', company: 'Company',
       optional: '(optional)', message: 'Message', send: 'Send message',
       sending: 'Sending…',
-      errorMsg: 'The message could not be sent. Please try again or email stepanovv515@gmail.com.',
+      errorMsg: 'The message could not be sent. Please try again or email viktor.stepanov@svkatto.com.',
       mailSubject: 'Contact from website',
       thanksTitle: 'Thank you for your message!',
       thanksBody: 'Your message has been sent. We will try to respond as soon as possible.',
@@ -168,7 +168,7 @@ if (sections.length) {
       name: 'Имя', email: 'Эл. почта', phone: 'Телефон', company: 'Компания',
       optional: '(необязательно)', message: 'Сообщение', send: 'Отправить сообщение',
       sending: 'Отправка…',
-      errorMsg: 'Не удалось отправить сообщение. Попробуйте ещё раз или напишите на stepanovv515@gmail.com.',
+      errorMsg: 'Не удалось отправить сообщение. Попробуйте ещё раз или напишите на viktor.stepanov@svkatto.com.',
       mailSubject: 'Обращение с сайта',
       thanksTitle: 'Спасибо за обращение!',
       thanksBody: 'Ваше сообщение отправлено. Мы постараемся ответить как можно скорее.',
@@ -209,7 +209,7 @@ if (sections.length) {
           '<h3>' + t.thanksTitle + '</h3>' +
           '<p>' + t.thanksBody + '</p>' +
           '<p>' + t.urgent + '</p>' +
-          '<a class="cf-toast-phone" href="mailto:stepanovv515@gmail.com">' + PHONE + '</a>' +
+          '<a class="cf-toast-phone" href="mailto:viktor.stepanov@svkatto.com">' + PHONE + '</a>' +
         '</div>' +
       '</div>' +
     '</div>';
@@ -311,7 +311,7 @@ if (sections.length) {
   });
 
   // "Ota yhteyttä" -napit avaavat suoraan kävijän oman sähköpostiohjelman
-  // (mailto: stepanovv515@gmail.com). Lomake-modaalia ei enää avata näistä
+  // (mailto: viktor.stepanov@svkatto.com). Lomake-modaalia ei enää avata näistä
   // napeista, joten jätetään natiivi mailto-linkki toimimaan sellaisenaan.
 })();
 
@@ -345,11 +345,11 @@ if (sections.length) {
     '<p class="contact-detail">Y-tunnus: 3510360-8</p>' +
     '<p class="contact-detail">' + vatLabel + ': FI35103608</p></div>' +
     '<div class="contact-block">' +
-    '<a href="mailto:stepanovv515@gmail.com" class="contact-link">stepanovv515@gmail.com</a></div>' +
+    '<a href="mailto:viktor.stepanov@svkatto.com" class="contact-link">viktor.stepanov@svkatto.com</a></div>' +
     '<img src="' + base + 'kuvat/logo/svkatto-tunnus-vaalea.svg" alt="Svkatto Oy" class="contact-cert">' +
     '</div>' +
     '<div class="contact-persons">' +
-    card('VS', 'Viktor Stepanov', L.ceo, '+358458615399', '045 861 5399', 'stepanovv515@gmail.com') +
+    card('VS', 'Viktor Stepanov', L.ceo, '+358458615399', '045 861 5399', 'viktor.stepanov@svkatto.com') +
     card('AS', 'Agata Stepanova', L.billing, '+358442977865', '044 297 7865', 'Agata.zateeva@gmail.com') +
     '<p class="contact-note">' + L.note + '</p>' +
     '</div></div></div></section>';
