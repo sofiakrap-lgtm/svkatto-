@@ -1,93 +1,123 @@
 {
   "projects": [
     {
-      "name": "",
-      "org": "",
-      "address": "Arkadiankatu 30",
-      "city": "Helsinki",
-      "lat": 60.1705,
-      "lng": 24.927,
-      "year": 2025,
-      "yearDisplay": "2025",
-      "image": "kuvat/palvelut/14ef696c-a3ce-47b1-bf18-3b136637e63e.jpg",
-      "description": {
-        "fi": "Konesaumakaton uusiminen ja pellitykset.",
-        "ru": "Замена фальцевой кровли и отделка."
-      }
-    },
-    {
-      "name": "",
-      "org": "",
-      "address": "Kilonkallio 5",
+      "name": "As Oy Hehkutie 1",
+      "address": "",
       "city": "Espoo",
-      "lat": 60.218,
-      "lng": 24.808,
+      "lat": 60.2338,
+      "lng": 24.7462,
       "year": 2025,
       "yearDisplay": "2025",
-      "image": "kuvat/palvelut/df660b2d-c6fe-4a0d-a196-10c67a70f9f3.jpg",
+      "image": "kuvat/vaakasuuntaiset/hehkutie-1.png",
       "description": {
-        "fi": "Konesaumakatto ja sadevesijärjestelmät.",
-        "ru": "Фальцевая кровля и водосточные системы."
+        "fi": "Taloyhtiön katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы жилого дома.",
+        "en": "Roofing and sheet metal work for a housing company."
       }
     },
     {
-      "name": "",
-      "org": "",
-      "address": "Tikkurilantie 40",
-      "city": "Vantaa",
-      "lat": 60.293,
-      "lng": 25.04,
-      "year": 2024,
-      "yearDisplay": "2024",
-      "image": "kuvat/palvelut/504b0f17-a8bf-44f2-8d3f-7a907db14b64.JPG",
-      "description": {
-        "fi": "Peltikaton uusiminen ja piipun pellitykset.",
-        "ru": "Замена металлической кровли и отделка дымохода."
-      }
-    },
-    {
-      "name": "",
-      "org": "",
-      "address": "Mannerheimintie 100",
+      "name": "As Oy Kuusistonlinnantie 4",
+      "address": "",
       "city": "Helsinki",
-      "lat": 60.192,
-      "lng": 24.918,
-      "year": 2024,
-      "yearDisplay": "2024",
-      "image": "kuvat/palvelut/9eefa619-efb3-4ac2-8060-926765474146.jpg",
+      "lat": 60.2216,
+      "lng": 25.0203,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/kuusistolinnantie.png",
       "description": {
-        "fi": "Metalliset julkisivupellitykset ja karniisit.",
-        "ru": "Металлическая отделка фасада и карнизы."
+        "fi": "Taloyhtiön katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы жилого дома.",
+        "en": "Roofing and sheet metal work for a housing company."
       }
     },
     {
-      "name": "",
-      "org": "",
-      "address": "Hämeentie 55",
+      "name": "As Oy Maamonlahdentie 1",
+      "address": "",
       "city": "Helsinki",
-      "lat": 60.187,
-      "lng": 24.96,
-      "year": 2024,
-      "yearDisplay": "2024",
-      "image": "kuvat/palvelut/74ea3c89-f785-460c-9ee6-8bbc13aee16b.jpg",
+      "lat": 60.1592,
+      "lng": 24.8772,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/mammonlandentie.png",
       "description": {
-        "fi": "Konesaumakatto ja kattoturvatuotteet.",
-        "ru": "Фальцевая кровля и элементы безопасности."
+        "fi": "Taloyhtiön katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы жилого дома.",
+        "en": "Roofing and sheet metal work for a housing company."
       }
     },
     {
-      "name": "",
-      "org": "",
-      "address": "Kuninkaantie 12",
+      "name": "As Oy Haltiantie 1-7",
+      "address": "",
       "city": "Vantaa",
-      "lat": 60.29,
-      "lng": 25.01,
-      "year": 2023,
-      "yearDisplay": "2023",
-      "image": "kuvat/palvelut/a57c1256-3b73-48d2-bc97-40fdda42edee.jpg",
+      "lat": 60.2861,
+      "lng": 25.1063,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/as-oy-haltiontie-1-7-vantaa-paakuva.png",
       "description": {
-        "fi": "Konesaumakatto ja lumiesteet.",
-        "ru": "Фальцевая кровля и снегозадержатели."
+        "fi": "Taloyhtiön katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы жилого дома.",
+        "en": "Roofing and sheet metal work for a housing company."
+      }
+    },
+    {
+      "name": "As Oy Kalliolanrinne 4",
+      "address": "Kallio",
+      "city": "Helsinki",
+      "lat": 60.1841,
+      "lng": 24.9512,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/as-oy-kalliorinne-4-kallio-helsinki-yleiskuva.png",
+      "description": {
+        "fi": "Taloyhtiön katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы жилого дома.",
+        "en": "Roofing and sheet metal work for a housing company."
+      }
+    },
+    {
+      "name": "Omakotitalo, Pikkalantie 3",
+      "address": "",
+      "city": "Espoo",
+      "lat": 60.1985,
+      "lng": 24.5565,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/omakotitalo-pikkalantie-3-espoo-yleinen-kuva.png",
+      "description": {
+        "fi": "Omakotitalon katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы частного дома.",
+        "en": "Roofing and sheet metal work for a detached house."
+      }
+    },
+    {
+      "name": "Mökki, Mossabölentie 57",
+      "address": "",
+      "city": "Mustio",
+      "lat": 60.1081,
+      "lng": 23.7924,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/mokki-mossabolentie-57-mustio-yleiskuva.png",
+      "description": {
+        "fi": "Mökin katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы дачи.",
+        "en": "Roofing and sheet metal work for a cottage."
+      }
+    },
+    {
+      "name": "Kerrostalo, Venuksenkuja 5",
+      "address": "",
+      "city": "Vantaa",
+      "lat": 60.2905,
+      "lng": 24.9705,
+      "year": 2025,
+      "yearDisplay": "2025",
+      "image": "kuvat/vaakasuuntaiset/venuksenkuja-5-paakuva.png",
+      "description": {
+        "fi": "Kerrostalon katto- ja peltityöt.",
+        "ru": "Кровельные и жестяные работы многоквартирного дома.",
+        "en": "Roofing and sheet metal work for an apartment building."
       }
     }
   ]
