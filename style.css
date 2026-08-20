@@ -1682,6 +1682,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.75;
   color: #4a4a4a;
 }
+.gallery-card-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+  list-style: disc;
+}
+.gallery-card-list li {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #4a4a4a;
+  margin-bottom: 0.25rem;
+}
 
 @media (max-width: 768px) {
   .gallery-section { padding: 7rem 0 5rem; }

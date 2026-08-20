@@ -10,9 +10,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/hehkutie-1.png",
       "description": {
-        "fi": "Taloyhtiön katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы жилого дома.",
-        "en": "Roofing and sheet metal work for a housing company."
+        "fi": "Katto- ja peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Peltikatteen asennus</li><li>Sadevesijärjestelmän asennus</li><li>IV-piippujen pellitys</li><li>Muut niihin liittyvät peltityöt</li></ul>",
+        "ru": "Кровельные и жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Монтаж листового металла</li><li>Установка водосточной системы</li><li>Обшивка вентиляционных труб</li><li>Выполнение сопутствующих жестяных работ</li></ul>",
+        "en": "Roofing and sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Sheet metal roofing installed</li><li>Rainwater system installed</li><li>Ventilation pipes clad</li><li>Related sheet metal work carried out</li></ul>"
       }
     },
     {
@@ -25,9 +25,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/kuusistolinnantie.png",
       "description": {
-        "fi": "Taloyhtiön katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы жилого дома.",
-        "en": "Roofing and sheet metal work for a housing company."
+        "fi": "Katto- ja peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Kaksinkertaisella konesaumauksella tehtyjen kourujen valmistus ja asennus</li><li>Peltikatteen asennus</li><li>Piippujen ja teknisten osien pellitys</li><li>Lumiesteiden asennus</li></ul>",
+        "ru": "Кровельные и жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Изготовление и монтаж жёлобов с двойным фальцевым соединением</li><li>Монтаж листового металла</li><li>Обшивка труб и технических элементов</li><li>Установка снегозадержателей</li></ul>",
+        "en": "Roofing and sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Gutters with a double standing seam fabricated and installed</li><li>Sheet metal roofing installed</li><li>Pipes and technical elements clad</li><li>Snow guards installed</li></ul>"
       }
     },
     {
@@ -40,9 +40,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/mammonlandentie.png",
       "description": {
-        "fi": "Taloyhtiön katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы жилого дома.",
-        "en": "Roofing and sheet metal work for a housing company."
+        "fi": "Katon täydellinen uusiminen ja peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Vanhan katteen purku</li><li>Alustan oikaisu</li><li>Uuden ruodelaudoituksen asennus</li><li>Aluskatteen asennus</li><li>Kaksinkertaisella konesaumauksella tehtyjen kourujen valmistus ja asennus</li><li>Peltikatteen asennus kaksinkertaisella konesaumauksella</li><li>IV- ja teknisten piippujen pellitys</li><li>Huoltoluukkujen asennus</li></ul>",
+        "ru": "Полная замена кровли и жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Демонтаж старого кровельного покрытия</li><li>Выравнивание основания</li><li>Монтаж новой обрешётки</li><li>Монтаж гидроизоляции</li><li>Изготовление и монтаж жёлобов с двойным фальцевым соединением</li><li>Монтаж листового металла с двойным фальцем</li><li>Обшивка вентиляционных и технических труб</li><li>Установка люков для обслуживания</li></ul>",
+        "en": "Full roof replacement and sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Old roof covering removed</li><li>Substrate leveled</li><li>New battens installed</li><li>Underlay membrane installed</li><li>Gutters with a double standing seam fabricated and installed</li><li>Sheet metal roofing installed with a double standing seam</li><li>Ventilation and technical pipes clad</li><li>Service hatches installed</li></ul>"
       }
     },
     {
@@ -55,9 +55,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/as-oy-haltiontie-1-7-vantaa-paakuva.png",
       "description": {
-        "fi": "Taloyhtiön katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы жилого дома.",
-        "en": "Roofing and sheet metal work for a housing company."
+        "fi": "Laajat kattotyöt: 7 taloa, yhteispinta-ala noin 6000 m².<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Peltikatteen asennus</li><li>IV-piippujen ja muiden teknisten osien pellitys</li><li>Ullakkotilojen huoltoluukkujen asennus</li><li>Muut niihin liittyvät katto- ja peltityöt</li></ul>",
+        "ru": "Комплексные кровельные работы: 7 домов, общая площадь около 6000 м².<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Монтаж листового металла</li><li>Обшивка вентиляционных труб и других технических элементов</li><li>Установка люков для обслуживания чердачных помещений</li><li>Выполнение сопутствующих кровельных и жестяных работ</li></ul>",
+        "en": "Comprehensive roofing work: 7 buildings, roughly 6000 m² in total.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Sheet metal roofing installed</li><li>Ventilation pipes and other technical elements clad</li><li>Loft service hatches installed</li><li>Related roofing and sheet metal work carried out</li></ul>"
       }
     },
     {
@@ -70,9 +70,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/as-oy-kalliorinne-4-kallio-helsinki-yleiskuva.png",
       "description": {
-        "fi": "Taloyhtiön katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы жилого дома.",
-        "en": "Roofing and sheet metal work for a housing company."
+        "fi": "Katteen täydellinen uusiminen.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Vanhan katteen purku</li><li>Alustan oikaisu ja pohjatyöt</li><li>Uuden ruodelaudoituksen asennus</li><li>Aluskatteen asennus</li><li>Peltikatteen asennus kaksinkertaisella konesaumauksella</li><li>Lumiesteiden asennus</li></ul>",
+        "ru": "Полная замена кровельного покрытия.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Демонтаж старой кровли</li><li>Выравнивание и подготовка основания</li><li>Монтаж новой обрешётки</li><li>Монтаж гидроизоляции</li><li>Монтаж листового металла с двойным фальцевым соединением</li><li>Установка снегозадержателей</li></ul>",
+        "en": "Full replacement of the roof covering.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Old roof covering removed</li><li>Substrate leveled and prepared</li><li>New battens installed</li><li>Underlay membrane installed</li><li>Sheet metal roofing installed with a double standing seam</li><li>Snow guards installed</li></ul>"
       }
     },
     {
@@ -85,9 +85,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/omakotitalo-pikkalantie-3-espoo-yleinen-kuva.png",
       "description": {
-        "fi": "Omakotitalon katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы частного дома.",
-        "en": "Roofing and sheet metal work for a detached house."
+        "fi": "Kattotyöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Ruodelaudoituksen oikaisu ja vaihto</li><li>UB700-aluskatteen asennus</li><li>Peltikatteen asennus</li><li>Lumiesteiden asennus</li><li>Sadevesijärjestelmän asennus</li></ul>",
+        "ru": "Кровельные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Выравнивание и замена обрешётки</li><li>Монтаж гидроизоляции UB700</li><li>Монтаж листового металла</li><li>Установка снегозадержателей</li><li>Монтаж водосточной системы</li></ul>",
+        "en": "Roofing work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Battens leveled and replaced</li><li>UB700 underlay membrane installed</li><li>Sheet metal roofing installed</li><li>Snow guards installed</li><li>Rainwater system installed</li></ul>"
       }
     },
     {
@@ -100,9 +100,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/mokki-mossabolentie-57-mustio-yleiskuva.png",
       "description": {
-        "fi": "Mökin katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы дачи.",
-        "en": "Roofing and sheet metal work for a cottage."
+        "fi": "Katto- ja siihen liittyvät työt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Ruodelaudoituksen oikaisu ja vaihto</li><li>UB700-aluskatteen asennus</li><li>Peltikatteen asennus</li><li>Sadevesijärjestelmän asennus</li><li>IV-järjestelmän huoltotikkaiden valmistus ja asennus</li></ul>",
+        "ru": "Кровельные и сопутствующие работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Выравнивание и замена обрешётки</li><li>Монтаж гидроизоляции UB700</li><li>Монтаж листового металла</li><li>Установка водосточной системы</li><li>Изготовление и монтаж лестницы для обслуживания вентиляционной системы</li></ul>",
+        "en": "Roofing and related work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Battens leveled and replaced</li><li>UB700 underlay membrane installed</li><li>Sheet metal roofing installed</li><li>Rainwater system installed</li><li>Service ladder for the ventilation system fabricated and installed</li></ul>"
       }
     },
     {
@@ -115,9 +115,9 @@
       "yearDisplay": "2025",
       "image": "kuvat/vaakasuuntaiset/venuksenkuja-5-paakuva.png",
       "description": {
-        "fi": "Kerrostalon katto- ja peltityöt.",
-        "ru": "Кровельные и жестяные работы многоквартирного дома.",
-        "en": "Roofing and sheet metal work for an apartment building."
+        "fi": "Peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Peltikatteen asennus</li><li>IV- ja muiden teknisten piippujen pellitys</li><li>Muut niihin liittyvät peltityöt</li></ul>",
+        "ru": "Жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Монтаж листового металла</li><li>Обшивка вентиляционных и других технических труб</li><li>Выполнение сопутствующих жестяных работ</li></ul>",
+        "en": "Sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Sheet metal roofing installed</li><li>Ventilation and other technical pipes clad in sheet metal</li><li>Related sheet metal work carried out</li></ul>"
       }
     }
   ]
