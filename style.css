@@ -1637,7 +1637,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-card {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 .gallery-card-img {
@@ -1686,7 +1686,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5rem 0 0;
   padding-left: 1.15rem;
   list-style: disc;
-  align-self: center;
+  align-self: flex-start;
   display: inline-block;
   text-align: left;
 }
@@ -1708,7 +1708,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   display: inline-flex;
   align-items: center;
-  align-self: center;
+  align-self: flex-start;
   gap: 0.35rem;
 }
 .gallery-card-btn::after { content: '\2192'; transition: transform 0.15s ease; }
