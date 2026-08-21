@@ -5,26 +5,27 @@
 }
 
 :root {
-  --red: #E07A0C;
-  --red-dark: #c4680a;
-  --dark: #2f372b;
-  --dark-2: #262c22;
-  --dark-3: #333a2f;
-  --border: #454b41;
+  --red: #E8730D;
+  --red-dark: #cc6205;
+  --dark: #15191e;
+  --dark-2: #1c2127;
+  --dark-3: #262d35;
+  --border: #333b45;
   --white: #ffffff;
-  --off-white: #f4ede2;
-  --gray-light: #6b6b6b;
-  --ink: #262626;
+  --off-white: #eceef1;
+  --gray-light: #5c6470;
+  --ink: #14181d;
+  --steel: #48586a;
   --accent-rose: #b1927b;
   --accent-cream: #e8d5be;
 
-  --font-heading: 'Archivo', system-ui, sans-serif;
-  --font-body: 'Archivo', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
 
   --transition: 0.3s ease;
-  --radius: 4px;
-  --radius-lg: 8px;
-  --radius-btn: 12px;
+  --radius: 2px;
+  --radius-lg: 3px;
+  --radius-btn: 2px;
 }
 
 html { scroll-behavior: smooth; }
@@ -69,22 +70,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-label {
-  display: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-family: var(--font-heading);
-  font-size: 0.67rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: rgba(0,0,0,0.4);
-  border: 1px solid rgba(0,0,0,0.14);
-  padding: 0.28rem 0.85rem;
-  border-radius: 2rem;
-  margin-bottom: 1rem;
+  color: var(--red);
+  margin-bottom: 1.1rem;
 }
 
+.section-label::before {
+  content: '';
+  width: 22px;
+  height: 2px;
+  background: var(--red);
+  display: inline-block;
+}
+
+.section-header .section-label { justify-content: center; }
+
 .section-label--light {
-  color: rgba(255,255,255,0.45);
-  border-color: rgba(255,255,255,0.18);
+  color: var(--red);
 }
 
 .section-title {
@@ -143,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--red-dark);
   border-color: var(--red-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(139,34,19,0.4);
+  box-shadow: 0 10px 26px rgba(232,115,13,0.35);
 }
 
 .btn-outline {
@@ -261,24 +270,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-links > li > a {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.28rem;
-  padding: 0.33rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   color: rgba(255,255,255,0.65);
   text-decoration: none;
   font-family: var(--font-heading);
-  font-size: 0.83rem;
+  font-size: 0.82rem;
   font-weight: 500;
-  letter-spacing: 0.01em;
-  border-radius: var(--radius);
-  transition: color var(--transition), background var(--transition);
+  letter-spacing: 0.02em;
+  transition: color var(--transition);
   white-space: nowrap;
+}
+
+.nav-links > li > a::after {
+  content: '';
+  position: absolute;
+  left: 0.6rem;
+  right: 0.6rem;
+  bottom: 0.15rem;
+  height: 2px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition);
 }
 
 .nav-links > li > a:hover {
   color: var(--white);
-  background: rgba(255,255,255,0.07);
+}
+
+.nav-links > li > a:hover::after,
+.nav-links > li.nav-item-active > a::after {
+  transform: scaleX(1);
 }
 
 .nav-links > li.nav-item-active > a {
@@ -471,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
   font-family: var(--font-heading);
   font-size: clamp(1.7rem, 3.4vw, 2.7rem);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.03em;
   color: var(--ink);
@@ -565,7 +591,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: var(--white);
+  color: var(--red);
   line-height: 1;
   margin-bottom: 0.4rem;
 }
@@ -602,7 +628,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-text .section-label {
-  display: none;
+  display: inline-flex;
   text-align: left;
 }
 
@@ -704,11 +730,11 @@ h1, h2, h3, h4, h5, h6 {
 .service-feature-body { padding: 2.75rem 2.5rem; display: flex; flex-direction: column; justify-content: center; }
 .service-feature-tag {
   align-self: flex-start;
-  font-family: var(--font-heading); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--red); background: rgba(224,122,12,0.12); border: 1px solid rgba(224,122,12,0.35);
-  padding: 0.28rem 0.8rem; border-radius: 2rem; margin-bottom: 1rem;
+  font-family: var(--font-heading); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--red); background: rgba(232,115,13,0.1); border-left: 3px solid var(--red);
+  padding: 0.32rem 0.8rem; border-radius: 0; margin-bottom: 1.1rem;
 }
-.service-feature-body h3 { font-family: var(--font-heading); font-size: 1.6rem; font-weight: 800; color: var(--white); margin-bottom: 0.85rem; line-height: 1.2; }
+.service-feature-body h3 { font-family: var(--font-heading); font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.85rem; line-height: 1.2; }
 .service-feature-body p { font-family: var(--font-heading); font-size: 0.92rem; color: rgba(255,255,255,0.55); line-height: 1.7; margin-bottom: 1.4rem; }
 
 /* Mini services grid (6 offerings) */
@@ -826,9 +852,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-card-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: flex-start;
   margin-top: 1.3rem;
-  padding: 0.6rem 1.5rem;
+  padding: 0.7rem 1.6rem;
   background: var(--red);
   color: var(--white);
   font-family: var(--font-heading);
@@ -839,6 +868,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--radius-btn);
   transition: background var(--transition), transform var(--transition);
 }
+.service-card-btn::after { content: '\2192'; }
 
 .service-card:hover .service-card-btn {
   background: var(--red-dark);
