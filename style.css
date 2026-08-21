@@ -70,30 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-family: var(--font-heading);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--red);
-  margin-bottom: 1.1rem;
-}
-
-.section-label::before {
-  content: '';
-  width: 22px;
-  height: 2px;
-  background: var(--red);
-  display: inline-block;
-}
-
-.section-header .section-label { justify-content: center; }
-
-.section-label--light {
-  color: var(--red);
+  display: none;
 }
 
 .section-title {
@@ -628,8 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-text .section-label {
-  display: inline-flex;
-  text-align: left;
+  display: none;
 }
 
 .about-text .section-title {
@@ -1250,9 +1226,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  background: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1f1408 75%, #7a3e0a 100%);
-  background-size: 100% auto;
-  background-position: center top;
+  background-color: #14181e;
+  background-image: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1f1408 75%, #7a3e0a 100%);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 5rem;
 }
@@ -1269,19 +1246,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-hero--blue {
-  background: linear-gradient(135deg, #0d0d0d 0%, #181820 45%, #141e2e 75%, #1e3050 100%);
+  background-image: linear-gradient(135deg, #0d0d0d 0%, #181820 45%, #141e2e 75%, #1e3050 100%);
 }
 
 .page-hero--steel {
-  background: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1a1e1e 75%, #2a3030 100%);
+  background-image: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1a1e1e 75%, #2a3030 100%);
 }
 
 .page-hero--warm {
-  background: linear-gradient(135deg, #0d0d0d 0%, #1a1814 45%, #2a2010 75%, #3a2e18 100%);
+  background-image: linear-gradient(135deg, #0d0d0d 0%, #1a1814 45%, #2a2010 75%, #3a2e18 100%);
 }
 
 .page-hero--neutral {
-  background: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1e1e22 75%, #2a2a32 100%);
+  background-image: linear-gradient(135deg, #0d0d0d 0%, #181818 45%, #1e1e22 75%, #2a2a32 100%);
 }
 
 .page-hero::before {
