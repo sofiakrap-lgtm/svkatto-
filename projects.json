@@ -1,36 +1,6 @@
 {
   "projects": [
     {
-      "name": "As Oy Hehkutie 1",
-      "address": "",
-      "city": "Espoo",
-      "lat": 60.2338,
-      "lng": 24.7462,
-      "year": 2025,
-      "yearDisplay": "2025",
-      "image": "kuvat/vaakasuuntaiset/hehkutie-1.png",
-      "description": {
-        "fi": "Katto- ja peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Peltikatteen asennus</li><li>Sadevesijärjestelmän asennus</li><li>IV-piippujen pellitys</li><li>Muut niihin liittyvät peltityöt</li></ul>",
-        "ru": "Кровельные и жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Монтаж листового металла</li><li>Установка водосточной системы</li><li>Обшивка вентиляционных труб</li><li>Выполнение сопутствующих жестяных работ</li></ul>",
-        "en": "Roofing and sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Sheet metal roofing installed</li><li>Rainwater system installed</li><li>Ventilation pipes clad</li><li>Related sheet metal work carried out</li></ul>"
-      }
-    },
-    {
-      "name": "As Oy Kuusistonlinnantie 4",
-      "address": "",
-      "city": "Helsinki",
-      "lat": 60.2216,
-      "lng": 25.0203,
-      "year": 2025,
-      "yearDisplay": "2025",
-      "image": "kuvat/vaakasuuntaiset/kuusistolinnantie.png",
-      "description": {
-        "fi": "Katto- ja peltityöt.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Kaksinkertaisella konesaumauksella tehtyjen kourujen valmistus ja asennus</li><li>Peltikatteen asennus</li><li>Piippujen ja teknisten osien pellitys</li><li>Lumiesteiden asennus</li></ul>",
-        "ru": "Кровельные и жестяные работы.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Изготовление и монтаж жёлобов с двойным фальцевым соединением</li><li>Монтаж листового металла</li><li>Обшивка труб и технических элементов</li><li>Установка снегозадержателей</li></ul>",
-        "en": "Roofing and sheet metal work.<ul style=\"margin:6px 0 0;padding-left:18px;\"><li>Gutters with a double standing seam fabricated and installed</li><li>Sheet metal roofing installed</li><li>Pipes and technical elements clad</li><li>Snow guards installed</li></ul>"
-      }
-    },
-    {
       "name": "As Oy Maamonlahdentie 1",
       "address": "",
       "city": "Helsinki",
