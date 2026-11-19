@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../kuvat/logo/svkatto-tunnus.svg">
+  <title>Svkatto Oy - Фальцевая кровля и жестяные работы</title>
+  <meta name="description" content="Svkatto Oy – кровельные работы профессионально в Вантаа и по всей Уусимаа. Фальцевая кровля, металлические фасады, ремонт крыш. Запросите смету!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" hreflang="fi" href="https://svkatto.fi/index.html" />
+  <link rel="alternate" hreflang="ru" href="https://svkatto.fi/ru/index.html" />
+  <link rel="alternate" hreflang="en" href="https://svkatto.fi/en/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://svkatto.fi/index.html" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Svkatto Oy">
+  <meta property="og:title" content="Svkatto Oy">
+  <meta property="og:description" content="Svkatto Oy – кровельные работы профессионально в Вантаа и по всей Уусимаа. Фальцевая кровля, металлические фасады, ремонт крыш. Запросите смету!">
+  <meta property="og:url" content="https://svkatto.fi/ru/index.html">
+  <meta property="og:image" content="https://svkatto.fi/kuvat/vaakasuuntaiset/omakotitalo-pikkalantie-3-espoo-yleinen-kuva.png">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="fi_FI">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "@id": "https://svkatto.fi/#organization",
+  "name": "Svkatto Oy",
+  "url": "https://svkatto.fi/",
+  "image": "https://svkatto.fi/kuvat/logo/svkatto-tunnus.svg",
+  "logo": "https://svkatto.fi/kuvat/logo/svkatto-logo.svg",
+  "description": "Svkatto Oy – kattotyöt ammattitaidolla Vantaalla ja koko Uudellamaalla. Konesaumakatot, metallijulkisivut, kattoremontit ja korjaukset. Pyydä tarjous!",
+  "telephone": "+358458615399",
+  "email": "viktor.stepanov@svkatto.com",
+  "vatID": "FI35103608",
+  "taxID": "3510360-8",
+  "foundingDate": "2024",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pähkinätie 12 A1",
+    "postalCode": "01710",
+    "addressLocality": "Vantaa",
+    "addressCountry": "FI"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Uusimaa"
+  },
+  "availableLanguage": [
+    "fi",
+    "ru",
+    "en"
+  ]
+}
+  </script>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><img src="../kuvat/logo/svkatto-tunnus.svg" alt="" class="nav-logo-img"><span class="nav-logo-text">SVkatto&nbsp;Oy</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li class="mobile-nav-item mobile-lang-top">
+          <a href="../index.html" class="lang-link">FI</a>
+          <span class="lang-pipe">|</span>
+          <a href="index.html" class="lang-link lang-active">RU</a>
+          <span class="lang-pipe">|</span>
+          <a href="../en/index.html" class="lang-link">EN</a>
+        </li>
+        <li><a href="#yritys">О компании</a></li>
+        <li class="has-dropdown">
+          <a href="#palvelut">Услуги <span class="dropdown-arrow">▾</span></a>
+          <ul class="dropdown">
+            <li><a href="konesaumakatto.html">Фальцевая кровля</a></li>
+            <li><a href="metallijulkisivut.html">Металлические фасады и балконы</a></li>
+            <li><a href="muut-tyot.html">Прочие работы</a></li>
+          </ul>
+        </li>
+        <li class="mobile-nav-item mobile-service-item"><a href="konesaumakatto.html">Фальцевая кровля</a></li>
+        <li class="mobile-nav-item mobile-service-item"><a href="metallijulkisivut.html">Металлические фасады и балконы</a></li>
+        <li class="mobile-nav-item mobile-service-item"><a href="muut-tyot.html">Прочие работы</a></li>
+        <li><a href="referenssit.html">Объекты</a></li>
+        <li><a href="galleria.html">Галерея</a></li>
+        <li><a href="#yhteystiedot">Контакты</a></li>
+        <li><a href="laskutusohjeet.html">Реквизиты для счетов</a></li>
+        <li class="mobile-nav-item mobile-cta-item">
+          <a href="#yhteystiedot">Связаться</a>
+        </li>
+      </ul>
+      <div class="lang-switcher">
+        <a href="../index.html" class="lang-link">FI</a>
+        <span class="lang-sep">/</span>
+        <a href="index.html" class="lang-link lang-active">RU</a>
+        <span class="lang-sep">/</span>
+        <a href="../en/index.html" class="lang-link">EN</a>
+      </div>
+      <a href="#yhteystiedot" class="nav-cta">Связаться</a>
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1 class="hero-title">Надёжные кровельные<br>и жестяные работы</h1>
+      <p class="hero-services">ФАЛЬЦЕВАЯ КРОВЛЯ&nbsp; | &nbsp;МЕТАЛЛИЧЕСКИЕ ФАСАДЫ&nbsp; | &nbsp;ОБСЛУЖИВАНИЕ КРОВЛИ</p>
+      <p class="hero-subtitle">Профессиональные кровельные и жестяные работы в Уусимаа, качественно и надёжно.</p>
+      <div class="hero-buttons">
+        <a href="#yhteystiedot" class="btn btn-primary">Связаться</a>
+        <a href="referenssit.html" class="btn btn-outline">Смотреть объекты</a>
+      </div>
+    </div>
+    <div class="hero-image"></div>
+    <img class="hero-badge" src="../kuvat/logo/peukku-venaja.svg" alt="Крыша надёжно - Svkatto Oy">
+  </section>
+
+  <!-- FAKTAT-PALKKI -->
+  <section class="facts-bar">
+    <div class="facts-container">
+      <div class="fact-item">
+        <span class="fact-number">40+</span>
+        <span class="fact-label">выполненных объектов</span>
+      </div>
+      <div class="fact-divider"></div>
+      <div class="fact-item">
+        <span class="fact-number">5+</span>
+        <span class="fact-label">лет опыта</span>
+      </div>
+      <div class="fact-divider"></div>
+      <div class="fact-item">
+        <span class="fact-number">2024</span>
+        <span class="fact-label">год основания</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERTIFIKAATTIPALKKI -->
+  <section class="cert-marquee" aria-label="Sertifikaatit">
+    <p class="cert-marquee-heading">Застраховано, надёжный партнёр</p>
+    <div class="cert-row">
+      <div class="cert-item"><img src="../kuvat/logo/luotettava-kumppani.svg" alt="Luotettava Kumppani"></div>
+    </div>
+  </section>
+
+  <!-- PALVELUT-OSIO -->
+  <section class="services" id="palvelut">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label section-label--light">Услуги</span>
+        <h2 class="section-title section-title--light">Что мы делаем</h2>
+        <p class="section-subtitle">Кровельные и жестяные работы профессионально</p>
+      </div>
+      <a href="konesaumakatto.html" class="service-feature fade-in">
+        <div class="service-feature-image">
+          <img src="../kuvat/vaakasuuntaiset/as-oy-haltiontie-1-7-vantaa-paakuva.png" alt="Konesaumakatto">
+        </div>
+        <div class="service-feature-body">
+          <span class="service-feature-tag">Наша специализация</span>
+          <h3>Фальцевая и замковая кровля</h3>
+          <p>Фальцевая кровля, наша сильная сторона. Монтируем, ремонтируем и заменяем фальцевые и замковые кровли на долгие годы, учитывая особенности каждого объекта.</p>
+          <span class="service-card-btn">Подробнее</span>
+        </div>
+      </a>
+      <div class="services-mini-grid">
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Осмотр кровли</h4><p>Оценка состояния кровли и обследование перед ремонтом.</p></div>
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Ремонт кровли</h4><p>Устранение протечек и повреждений, обслуживание.</p></div>
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Замена кровли</h4><p>Полная замена старой кровли вместе с отделкой.</p></div>
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Водосточная система</h4><p>Монтаж и замена желобов, водосточных труб и отливов.</p></div>
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Безопасность кровли</h4><p>Снегозадержатели, лестницы, мостики и другие элементы.</p></div>
+        <div class="service-mini fade-in"><span class="service-mini-icon"></span><h4>Металлические фасады и балконы</h4><p>Металлические карнизы, отливы, подоконники и отделка.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YRITYS-OSIO -->
+  <section class="about" id="yritys">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label">О компании</span>
+          <h2 class="section-title">Кровля в порядок<br>сразу и правильно</h2>
+          <p class="about-body">В эту сферу мы пришли совершенно случайно, но годы работы и опыт, полученный у работодателей, дали нам прочные профессиональные знания и практические навыки. Со временем меняются цели и взгляды на работу, и мы поняли, что готовы создавать что-то своё.</p>
+          <p class="about-body">Создав собственную компанию, мы получили возможность работать более самостоятельно и творчески, предлагать заказчикам собственные решения и находить оптимальный вариант для каждого проекта. Для нас важно сделать работу качественно, продуманно и с учётом потребностей клиента. Наша деятельность застрахована (Pohjola Vakuutus), и мы являемся надёжным партнёром (Luotettava Kumppani).</p>
+          <a href="#palvelut" class="btn btn-primary" style="margin-top: 2rem; display: inline-flex;">Наши услуги</a>
+        </div>
+        <div class="about-visual">
+          <div class="about-image fade-in">
+            <img src="../kuvat/vaakasuuntaiset/as-oy-haltiontie-1-7-vantaa-2.png" alt="ЖК Haltiantie 1-7, Svkatto Oy">
+          </div>
+          <div class="about-image fade-in">
+            <img src="../kuvat/pystysuuntaiset/omakotitalo-pikkalantie-3-espoo-yksityiskohta-2.png" alt="Частный дом Pikkalantie 3, Svkatto Oy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-container"><hr class="section-divider"></div>
+
+  <!-- KARTTA -->
+  <section class="map-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">Объекты</span>
+        <h2 class="section-title">Познакомьтесь с нашими объектами</h2>
+        <a href="referenssit.html" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-flex;">Смотреть объекты</a>
+      </div>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <!-- MIKSI VALITA MYRAK -->
+  <section class="myrak-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label section-label--light">Svkatto как подрядчик</span>
+        <h2 class="section-title section-title--light">Почему выбирают Svkatto Oy?</h2>
+      </div>
+      <div class="myrak-grid">
+        <div class="myrak-item fade-in">
+          <h3>Профессионализм и опыт</h3>
+          <p>Прочные профессиональные навыки и годы опыта в кровельных и жестяных работах.</p>
+        </div>
+        <div class="myrak-item fade-in">
+          <h3>Качественная и аккуратная работа</h3>
+          <p>Выполняем работы тщательно и аккуратно, вплоть до финишной отделки.</p>
+        </div>
+        <div class="myrak-item fade-in">
+          <h3>Надёжный сервис</h3>
+          <p>Соблюдаем договорённости и согласованные сроки.</p>
+        </div>
+        <div class="myrak-item fade-in">
+          <h3>Обслуживание на трёх языках</h3>
+          <p>Обслуживаем на финском, русском и английском языках.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PALAUTTEET-OSIO -->
+  <section class="testimonials" id="palautteet">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">Отзывы</span>
+        <h2 class="section-title">Что говорят наши клиенты</h2>
+        <p class="section-subtitle section-subtitle--dark">Опыт наших клиентов от сотрудничества с нами.</p>
+      </div>
+      <div class="testimonials-grid testimonials-grid--single">
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">«Svkatto работали у нас как субподрядчик, и мы остались очень довольны их работой. Профессиональный подход, работы выполняются в срок и по плану, и они берутся за очень широкий круг задач. Хорошая команда, хорошая энергетика и отличное знание языков. Обязательно продолжим сотрудничество и в будущем.»</p>
+          <div class="testimonial-author">Aleksandr Kraptsak</div>
+          <div class="testimonial-role">Myrak Oy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YHTEYSTIEDOT-OSIO -->
+  <section class="contact" id="yhteystiedot">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label section-label--light">Контакты</span>
+        <h2 class="section-title section-title--light">Svkatto к вашим услугам</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-block">
+            <p class="contact-company">Svkatto Oy</p>
+            <p>Pähkinätie 12 A1<br>01710 Vantaa</p>
+            <p class="contact-detail">Идентификатор (Y-tunnus): 3510360-8</p>
+            <p class="contact-detail">НДС (VAT): FI35103608</p>
+          </div>
+          <div class="contact-block">
+            <a href="mailto:viktor.stepanov@svkatto.com" class="contact-link">viktor.stepanov@svkatto.com</a>
+          </div>
+          <img src="../kuvat/logo/svkatto-tunnus-vaalea.svg" alt="Svkatto Oy" class="contact-cert">
+        </div>
+        <div class="contact-persons">
+          <div class="contact-card">
+            <div class="contact-avatar">VS</div>
+            <div class="contact-card-info">
+              <h3>Viktor Stepanov</h3>
+              <p class="contact-role">Генеральный директор</p>
+              <a href="tel:+358458615399" class="contact-phone">045 861 5399</a>
+            </div>
+            <a href="mailto:viktor.stepanov@svkatto.com" class="contact-card-email">viktor.stepanov@svkatto.com</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-avatar">AS</div>
+            <div class="contact-card-info">
+              <h3>Agata Stepanova</h3>
+              <p class="contact-role">Счета и оплата</p>
+              <a href="tel:+358442977865" class="contact-phone">044 297 7865</a>
+            </div>
+            <a href="mailto:Agata.zateeva@gmail.com" class="contact-card-email">Agata.zateeva@gmail.com</a>
+          </div>
+          <p class="contact-note">Мы работаем с частными клиентами, жилищными компаниями и подрядчиками по всей Уусимаа на финском, русском и английском языках.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <span class="footer-logo"><img src="../kuvat/logo/svkatto-logo.svg" alt="Svkatto Oy" class="footer-logo-img"></span>
+      <span class="footer-copy">© 2025 Svkatto Oy - Pähkinätie 12 A1, 01710 Vantaa</span>
+      <span class="footer-tagline">Кровельные работы профессионально</span>
+      <span class="footer-contact"><a href="mailto:viktor.stepanov@svkatto.com">viktor.stepanov@svkatto.com</a></span>
+    </div>
+    <div class="footer-links">
+      <a href="laskutusohjeet.html" class="footer-link">Реквизиты для счетов</a>
+      <a href="tietosuojaseloste.html" class="footer-link">Конфиденциальность</a>
+    </div>
+    <div class="footer-credit">Разработка сайта: <a href="https://studioblomma.com" target="_blank" rel="noopener">Studio Blomma</a></div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script>
+    const map = L.map('map', { scrollWheelZoom: false }).setView([60.1699, 24.9384], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19
+    }).addTo(map);
+
+    const icon = L.icon({
+      iconUrl: '../karttamerkki.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -34]
+    });
+
+    const _mk = [];
+    const kohde = (lat, lng, title, address, kuva, kuvaus, aika) => {
+      const addressLine = address ? `<div style="font-size:0.74rem;color:#666;margin-bottom:7px;line-height:1.4;">${address}</div>` : '';
+      const imgTag = kuva ? `<img src="${kuva}" alt="${title}" style="width:180px;height:160px;object-fit:cover;flex-shrink:0;display:block;">` : '';
+      const popup = `
+        <div style="width:${kuva ? '420px' : '260px'};font-family:'Barlow',system-ui,sans-serif;display:flex;align-items:flex-start;">
+          ${imgTag}
+          <div style="padding:12px 12px 12px 14px;flex:1;">
+            <div style="font-weight:700;font-size:0.85rem;color:#1a1a1a;margin-bottom:3px;line-height:1.3;">${title}</div>
+            ${addressLine}
+            <div style="font-size:0.78rem;color:#444;line-height:1.6;margin-bottom:9px;">${kuvaus}</div>
+            <div style="font-size:0.74rem;color:#888;font-style:italic;">${aika}</div>
+          </div>
+        </div>`;
+      const m = L.marker([lat, lng], { icon }).addTo(map).bindPopup(popup, { maxWidth: 460 });
+      m.on('mouseover', function() { this.openPopup(); });
+      m.on('mouseout', function() { this.closePopup(); });
+      _mk.push(m);
+    };
+
+    // Kaikki kohteet projects.json:sta
+    fetch('../projects.json')
+      .then(r => r.json())
+      .then(data => {
+        (data.projects || []).forEach(p => {
+          if (p.lat == null || p.lng == null) return;
+          const addr = [p.address, p.city].filter(Boolean).join(', ');
+          const desc = (p.description && (p.description.ru || p.description.fi)) || '';
+          kohde(p.lat, p.lng, p.name, addr, p.image ? '../' + p.image : '', desc, p.yearDisplay || '');
+        });
+        if (_mk.length) {
+          try {
+            map.fitBounds(L.featureGroup(_mk).getBounds(), { padding: [30, 30], maxZoom: 12 });
+          } catch (e) { /* ignore */ }
+        }
+      })
+      .catch(e => console.error('projects.json load error', e));
+  </script>
+</body>
+</html>
